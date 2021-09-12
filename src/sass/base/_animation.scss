@@ -1,0 +1,62 @@
+/* ANIMATION FOR UP ARROW BUTTON */
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(170, 40, 148, 0.99);
+  }
+
+  70% {
+    box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 3rem rgba(146, 55, 123, 0);
+  }
+}
+
+@keyframes bounceAlpha {
+  0% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+  25% {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.9);
+  }
+  26% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.9);
+  }
+  55% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+/* ANIMATION FOR HEADER SECTION BACKGROUND */
+
+@keyframes gradientBG {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+/* ANIMATION FOR BORDER PART BACKGROUND OF HEADER SECTION */
+
+@keyframes Gradient {
+  0% {
+    background-position: 40% 50%;
+  }
+  50% {
+    background-position: 25% 50%;
+  }
+  100% {
+    background-position: 40% 50%;
+  }
+}
