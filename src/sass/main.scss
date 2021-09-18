@@ -2,7 +2,10 @@
 @import './base/animation';
 
 @import './layout/layout';
-@import './layout/button';
 
-@import './sections/header';
+@import './sections/home';
 @import './sections/navbar';
+@import './sections/about';
+
+@import './components/logo';
+@import './components/button';

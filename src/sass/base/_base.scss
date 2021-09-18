@@ -15,7 +15,12 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777;
+  color: rgb(44, 40, 40);
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 90vh repeat(3, min-content);
 }

@@ -1,10 +1,17 @@
 import './sass/main.scss';
-import Header from "./components/home/Header";
+
+import Home from "./components/home/Home";
+import About from './components/home/About';
+import Projects from './components/home/Projects';
+import Footer from './components/home/Footer';
 
 function App() {
   return (
-    <div>
-      <Header />
+    <div className="container">   
+      <Home />
+      <About />
+      <Projects />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,49 @@
+.header {
+  grid-row: 3/4;
+  grid-column: 2/6;
+  font-size: 3rem;
+
+  margin: auto;
+}
+
+.title {
+  font-size: 4rem;
+  background: linear-gradient(to right, whitesmoke 0%, rgb(167, 154, 154) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.huongnguyen {
+  font-weight: bold;
+  background: linear-gradient(to right, whitesmoke 0%, rgb(167, 154, 154) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.full-stack {
+  background: linear-gradient(
+    to right,
+    rgb(236, 163, 136) 0%,
+    rgb(211, 94, 51) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.huong-picture {
+  width: 35rem;
+  height: 35rem;
+  grid-row: 3/4;
+  grid-column: 8/12;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.line {
+  grid-row: 4/5;
+  grid-column: 6/8;
+  margin-top: 12rem;
+  width: 18vw;
+  height: 0.3rem;
+  background-color: rgb(121, 85, 72);
+}

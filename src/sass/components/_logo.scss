@@ -1,0 +1,33 @@
+.js-container {
+  grid-row: 5/6;
+  grid-column: 5/6;
+
+  margin: 3rem auto;
+}
+
+.react-container {
+  grid-row: 5/6;
+  grid-column: 6/7;
+
+  margin: 3rem auto;
+}
+
+.nodejs-container {
+  grid-row: 5/6;
+  grid-column: 7/8;
+
+  margin: 3rem auto;
+}
+
+.mongoDB-container {
+  grid-row: 5/6;
+  grid-column: 8/9;
+
+  margin: 3rem auto;
+}
+
+.logo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
