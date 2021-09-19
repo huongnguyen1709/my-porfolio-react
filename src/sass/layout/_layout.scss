@@ -19,6 +19,10 @@
 }
 
 .about {
+  background-color: #f7f7f7;
+  display: grid;
+  grid-template-rows: 15vh 10vw 70vh;
+  grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
 }
 
 .projects {
