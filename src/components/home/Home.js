@@ -3,10 +3,10 @@ import React from 'react';
 import NavBar from './NavBar';
 
 import profile from '../../imgs/huong.jpg';
-import javascript from '../../imgs/javascript.png';
-import react from '../../imgs/react.png';
-import nodejs from '../../imgs/nodejs.png';
-import mongoDB from '../../imgs/mongoDB.png';
+import javascript from '../../imgs/logos/javascript.png';
+import react from '../../imgs/logos/react.png';
+import nodejs from '../../imgs/logos/nodejs.png';
+import mongoDB from '../../imgs/logos/mongoDB.png';
 
 const Header = () => {
     return (

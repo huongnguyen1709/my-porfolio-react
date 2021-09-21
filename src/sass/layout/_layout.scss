@@ -1,9 +1,6 @@
 /* HEADER */
 
 .home {
-  grid-column: 1/-1;
-  // background-color: coral;
-
   background-image: linear-gradient(
       rgba(135, 161, 130, 0.93),
       rgba(36, 46, 35, 0.93)
@@ -26,7 +23,9 @@
 }
 
 .projects {
-  background-color: coral;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem;
 }
 
 .footer {

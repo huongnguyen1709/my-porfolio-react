@@ -48,22 +48,22 @@
         rgb(199, 199, 29),
         rgb(75, 75, 10)
       ),
-      url(../../imgs/front-end.jpeg);
+      url(../../imgs/skills/front-end.jpeg);
   }
 
   &--2 {
     background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-      url(../../imgs/back-end.jpeg);
+      url(../../imgs/skills/back-end.jpeg);
   }
 
   &--3 {
     background-image: linear-gradient(to right bottom, #2998ff, #3b2bd1),
-      url(../../imgs/database.png);
+      url(../../imgs/skills/database.png);
   }
 
   &--4 {
     background-image: linear-gradient(to right bottom, #7ed56f, #0f5f44),
-      url(../../imgs/testing.png);
+      url(../../imgs/skills/testing.png);
   }
 }
 

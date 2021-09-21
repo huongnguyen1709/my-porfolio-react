@@ -61,6 +61,7 @@ const About = () => {
                 <div className="card_details">
                     <ul>
                         <li>Jest</li>
+                        <li>Cypress</li>
                     </ul>
                 </div>   
             </div>
