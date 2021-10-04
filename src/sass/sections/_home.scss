@@ -42,8 +42,10 @@
 .line {
   grid-row: 4/5;
   grid-column: 6/8;
-  margin-top: 12rem;
   width: 18vw;
   height: 0.3rem;
+
+  margin-top: auto;
+
   background-color: rgb(121, 85, 72);
 }

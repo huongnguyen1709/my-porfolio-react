@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 import NavBar from './NavBar';
 
@@ -15,7 +16,7 @@ const Header = () => {
        <div className="header">
            <span className="huongnguyen">Huong Nguyen</span>  
            <div className="title"><span className="full-stack">Full-Stack</span> Developer</div>
-           <button className="btn-click">View my work</button>
+           <button className="btn-click"><Link to="/projects">View my work</Link></button>
        </div>
        <img src={profile} alt="huong" className="huong-picture" />
 

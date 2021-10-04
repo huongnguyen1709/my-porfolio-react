@@ -1,8 +1,10 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 const About = () => {
     return (
         <div className="about">
+            <NavBar />
             <h2 className="heading-about">About Me</h2>
             <p className="introduce">Hi, I'm Huong. I have a passion in designing and building website, playing with animation and UI effects in front-end web development. I am self-motivation, willing to learn new things & new skills. My hobbies are reading, traveling, and talking with people. Feel free to check out my skills & projects below !</p>
             

@@ -1,14 +1,17 @@
 import React from 'react';
 
+import {
+    Link
+  } from "react-router-dom";
+
 const NavBar = () => {
     return (
-      
             <nav className="navigation">
-                <div className="hn"><a href="#header" className="nav-link hn-logo"><i class="fab fa-angellist"></i> HN</a></div>
+                <div className="hn"><Link to="/" className="nav-link hn-logo"><i class="fab fa-angellist"></i> HN</Link></div>
                
-                <div className="btn-about-container"><a href="#about" className="nav-link">About</a></div>
-                <div className="btn-projects-container"><a href="#project" className="nav-link">Projects</a></div>
-                <div className="btn-contact-container"><a href="#contact" className="nav-link">Contact</a></div>
+                <div className="btn-about-container"><Link to="/about" className="nav-link">About</Link></div>
+                <div className="btn-projects-container"><Link to="/projects" className="nav-link">Projects</Link></div>
+                <div className="btn-contact-container"><Link to="/contact" className="nav-link">Contact</Link></div>
 
                 {/* <ul className="nav-list">                 
                     <li><a href="#header" className="nav-link">Home</a></li>
