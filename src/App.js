@@ -7,9 +7,9 @@ import {
 import './sass/main.scss';
 
 import Home from "./components/home/Home";
-import About from './components/home/About';
-import Projects from './components/home/Projects';
-import Contact from './components/home/Contact';
+import About from './components/about/About';
+import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
