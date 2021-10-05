@@ -1,14 +1,18 @@
 .header {
   grid-row: 3/4;
   grid-column: 2/6;
-  font-size: 3rem;
+  font-size: 4rem;
 
   margin: auto;
 }
 
 .title {
-  font-size: 4rem;
-  background: linear-gradient(to right, whitesmoke 0%, rgb(167, 154, 154) 100%);
+  font-size: 5rem;
+  background: linear-gradient(
+    to right,
+    rgb(252, 247, 247) 0%,
+    rgb(214, 198, 198) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

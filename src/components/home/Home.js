@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 import NavBar from './NavBar';
 
-import profile from '../../imgs/huong.jpg';
+import profile from '../../imgs/profile_picture/huong.jpg';
 import javascript from '../../imgs/logos/javascript.png';
 import react from '../../imgs/logos/react.png';
 import nodejs from '../../imgs/logos/nodejs.png';
@@ -16,7 +16,7 @@ const Header = () => {
        <div className="header">
            <span className="huongnguyen">Huong Nguyen</span>  
            <div className="title"><span className="full-stack">Full-Stack</span> Developer</div>
-           <button className="btn-click"><Link to="/projects">View my work</Link></button>
+          <Link to="/projects" className="btn-click">View my work</Link>
        </div>
        <img src={profile} alt="huong" className="huong-picture" />
 

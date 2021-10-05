@@ -1,8 +1,7 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import './sass/main.scss';
@@ -22,11 +21,6 @@ function App() {
         <Route path='/projects' component={Projects} />
         <Route path='/contact' component={Contact} />
         </Switch> 
-       
-        {/* <About />
-        <Projects />
-        <Contact /> 
-        <Footer /> */}
     
     </Router>
    
