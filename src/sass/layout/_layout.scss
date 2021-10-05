@@ -42,7 +42,11 @@
 
 .contact {
   height: 100vh;
-  background-image: url(../../imgs/star3.jpeg);
+  background-image: linear-gradient(
+      rgba(113, 123, 216, 0.5) 100%,
+      rgba(53, 44, 100, 0.5) 100%
+    ),
+    url(../../imgs/star4.jpeg);
   background-position: center;
   background-size: cover;
 
