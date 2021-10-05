@@ -1,4 +1,4 @@
-/* BUTTON CLICK ME */
+/* BUTTON VIEW MY WORK */
 
 .btn-click {
   grid-row: 3/4;
@@ -32,4 +32,41 @@
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
   border: 2px solid #91c0c0;
   transform: translateY(5px);
+}
+
+/* BUTTON VIEW DEMO & BUTTON GITHUB */
+
+.btn {
+  grid-row: 4/5;
+  width: 15rem;
+  margin: 0 auto 1.5rem auto;
+
+  font-size: 1.8rem;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+
+  &--link {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  &--view {
+    grid-column: 1/2;
+    background-color: coral;
+    box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.57);
+  }
+
+  &--github {
+    grid-column: 2/3;
+    background-color: rgb(199, 125, 82);
+    box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.57);
+  }
 }

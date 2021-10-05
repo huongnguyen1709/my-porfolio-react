@@ -46,7 +46,9 @@
       rgba(0, 0, 0, 0.5) 100%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url(../../imgs/background/background_contact.jpeg);
+    url(../../imgs/star.jpeg);
+  // background-position: bottom;
+  background-size: cover;
 
   display: grid;
   grid-template-rows: 10vh 1fr min-content 1fr min-content 4rem;

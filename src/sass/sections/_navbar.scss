@@ -1,22 +1,8 @@
 /* NAVBAR */
 
 .navigation {
-  // width: 50%;
-  // height: 6vh;
   grid-column: 1/-1;
-  // background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
-
   box-shadow: 0 1rem 1rem rgba(4, 26, 62, 0.5);
-
-  // position: fixed;
-  // top: 0;
-  // left: 50%;
-  // transform: translateX(-50%);
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-between;
-  // z-index: 1000;
-  // border-radius: 1rem;
 
   display: grid;
   grid-template-columns: 1fr repeat(10, minmax(min-content, 15rem)) 1fr;
@@ -39,16 +25,16 @@
 
 .btn-contact-container {
   grid-column: 11/12;
+  background-color: coral;
+  width: 13rem;
+  height: 5rem;
+  border-radius: 5rem;
   margin: auto;
-}
 
-// .nav-list {
-//   grid-column: 8/12;
-//   list-style: none;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .nav-link {
   font-family: 'Dancing Script', cursive;
@@ -56,7 +42,6 @@
   font-weight: 700;
   text-decoration: none;
   color: whitesmoke;
-  // color: rgb(224, 214, 214);
 }
 
 .nav-link:hover {
@@ -68,7 +53,8 @@
 }
 
 .contact_btn {
-  color: coral;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
 }
 
 .hn {
