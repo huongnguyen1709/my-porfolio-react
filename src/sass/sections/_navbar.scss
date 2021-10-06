@@ -120,7 +120,7 @@
 }
 
 /* TOGGLE MENU */
-.ham-btn {
+.hamburger-react {
   grid-column: 9/12;
   width: 8rem;
   height: 6rem;
@@ -138,21 +138,39 @@
     max-height: 4rem;
   }
 }
+// .ham-btn {
+//   grid-column: 9/12;
+//   width: 8rem;
+//   height: 6rem;
+//   padding: 0.4rem 0.8rem;
+//   background: coral;
+//   margin: auto;
+//   display: none;
 
-.ham-btn span {
-  width: 100%;
-  height: 0.4rem;
-  display: block;
-  background: whitesmoke;
-  margin: 1rem 0;
-  transition: 0.5s;
+//   @media only screen and (max-width: $bp-small-xs) {
+//     display: block;
+//   }
 
-  @media only screen and (max-width: $bp-extra-small) {
-    margin: 0.6rem 0;
-    max-width: 95%;
-    max-height: 0.3rem;
-  }
-}
+//   @media only screen and (max-width: $bp-extra-small) {
+//     max-width: 6rem;
+//     max-height: 4rem;
+//   }
+// }
+
+// .ham-btn span {
+//   width: 100%;
+//   height: 0.4rem;
+//   display: block;
+//   background: whitesmoke;
+//   margin: 1rem 0;
+//   transition: 0.5s;
+
+//   @media only screen and (max-width: $bp-extra-small) {
+//     margin: 0.6rem 0;
+//     max-width: 95%;
+//     max-height: 0.3rem;
+//   }
+// }
 
 .toggle_menu {
   display: none;

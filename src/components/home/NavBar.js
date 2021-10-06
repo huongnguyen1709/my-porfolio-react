@@ -1,8 +1,10 @@
-import React from 'react';
-
+import React, {useState} from 'react';
 import { Link } from "react-router-dom";
+import Hamburger from 'hamburger-react'
 
 const NavBar = () => {
+    const [isOpen, setOpen] = useState(false)
+
     return (
         <nav className="navigation">
            
@@ -14,11 +16,12 @@ const NavBar = () => {
           
 
             {/* Toggle Menu */}
-            <nav className="ham-btn">
+            <Hamburger className="ham-btn" toggled={isOpen} toggle={setOpen}  />
+            {/* <nav >
                 <span></span>
                 <span></span>
                 <span></span>
-            </nav>
+            </nav> */}
             <div className="toggle_menu">
                 <a href="#header" className="nav-link">Home</a>
                 <a href="#about" className="nav-link">About</a>
