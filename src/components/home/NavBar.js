@@ -1,9 +1,12 @@
 import React, {useState} from 'react';
-import { Link } from "react-router-dom";
+import { Link, useLocation, NavLink } from "react-router-dom";
 import Hamburger from 'hamburger-react'
 
 const NavBar = () => {
     const [isOpen, setOpen] = useState(false)
+    const location = useLocation();
+    const pathname = location.pathname
+    console.log(location.pathname);
 
     return (
         <nav className="navigation">
@@ -16,17 +19,13 @@ const NavBar = () => {
           
 
             {/* Toggle Menu */}
-            <Hamburger className="ham-btn" toggled={isOpen} toggle={setOpen}  />
-            {/* <nav >
-                <span></span>
-                <span></span>
-                <span></span>
-            </nav> */}
-            <div className="toggle_menu">
-                <a href="#header" className="nav-link">Home</a>
-                <a href="#about" className="nav-link">About</a>
-                <a href="#project" className="nav-link">Project</a>
-                <a href="#contact" className="nav-link">Contact</a>
+            <Hamburger toggled={isOpen} toggle={setOpen}  />
+    
+            <div className={isOpen ? 'toggle_menu visible' : 'toggle_menu hidden'}>
+                <Link to="/" className={pathname === '/' ? 'nav-link selected' : 'nav-link'}>Home</Link>
+                <Link to="/about" className={pathname === '/about' ? 'nav-link selected' : 'nav-link'}>About</Link>
+                <Link to="/projects" className={pathname === '/projects' ? 'nav-link selected' : 'nav-link'}>Projects</Link>
+                <Link to="/contact" className={pathname === '/contact' ? 'nav-link selected' : 'nav-link'}>Contact</Link>
             </div> 
         </nav>
        

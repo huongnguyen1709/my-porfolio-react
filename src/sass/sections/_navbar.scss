@@ -122,22 +122,14 @@
 /* TOGGLE MENU */
 .hamburger-react {
   grid-column: 9/12;
-  // width: 8rem;
-  // height: 6rem;
-  padding: 0.4rem 0.8rem;
-  // background: coral;
   color: whitesmoke;
   margin: auto;
   display: none;
 
   @media only screen and (max-width: $bp-small-xs) {
     display: block;
+    z-index: 2;
   }
-
-  // @media only screen and (max-width: $bp-extra-small) {
-  //   max-width: 6rem;
-  //   max-height: 4rem;
-  // }
 }
 // .ham-btn {
 //   grid-column: 9/12;
@@ -174,5 +166,46 @@
 // }
 
 .toggle_menu {
-  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #a40606;
+  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+
+  visibility: hidden;
+
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  // @media only screen and (max-width: $bp-small-xs) {
+  //   visibility: visible;
+  // }
+}
+
+.visible {
+  visibility: visible;
+  z-index: 1;
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  transition: all 0.5s;
+}
+
+.hidden {
+  visibility: hidden;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  transition: all 0.5s;
+}
+
+.selected {
+  // font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: black;
 }
