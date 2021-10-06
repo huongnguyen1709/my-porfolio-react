@@ -96,6 +96,11 @@
     grid-row: 2/3;
     grid-column: auto;
   }
+
+  @media only screen and (max-width: $bp-extra-small) {
+    max-width: 25rem;
+    max-height: 25rem;
+  }
 }
 
 .line {

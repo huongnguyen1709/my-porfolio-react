@@ -132,6 +132,11 @@
   @media only screen and (max-width: $bp-small-xs) {
     display: block;
   }
+
+  @media only screen and (max-width: $bp-extra-small) {
+    max-width: 6rem;
+    max-height: 4rem;
+  }
 }
 
 .ham-btn span {
