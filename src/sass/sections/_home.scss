@@ -25,21 +25,9 @@
     align-items: center;
   }
 
-  // @media only screen and (max-width: $bp-small-xs) {
-  //   grid-column: 4/9;
-  // }
-
-  // @media only screen and (max-width: $bp-extra-small) {
-  //   grid-column: 3/9;
-  // }
-
-  // @media only screen and (max-width: $bp-extra-small-xs) {
-  //   grid-column: 3/10;
-  // }
-
-  // @media only screen and (max-width: $bp-mobile) {
-  //   grid-column: 3/9;
-  // }
+  @media only screen and (max-width: $bp-extra-small) {
+    font-size: 4.5rem;
+  }
 }
 
 .title {

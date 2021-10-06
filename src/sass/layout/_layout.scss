@@ -15,6 +15,10 @@
     grid-template-rows: 10vh 35vh 25vh 1fr 15vh;
     grid-template-columns: none;
   }
+
+  @media only screen and (max-width: $bp-extra-small) {
+    grid-template-rows: 10vh min-content 30vh 1fr 15vh;
+  }
 }
 
 .about {
