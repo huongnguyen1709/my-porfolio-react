@@ -3,13 +3,17 @@
   grid-column: 1/-1;
   margin: auto;
 
-  @media only screen and (max-width: $bp-small-xs) {
-    grid-column: 4/9;
-  }
+  // @media only screen and (max-width: $bp-small-xs) {
+  //   grid-column: 4/9;
+  // }
 
-  @media only screen and (max-width: $bp-extra-small) {
-    grid-column: 3/9;
-  }
+  // @media only screen and (max-width: $bp-extra-small) {
+  //   grid-column: 3/9;
+  // }
+
+  // @media only screen and (max-width: $bp-extra-small-xs) {
+  //   grid-column: 3/10;
+  // }
 }
 
 .logo {

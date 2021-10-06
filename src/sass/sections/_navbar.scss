@@ -132,10 +132,6 @@
   @media only screen and (max-width: $bp-small-xs) {
     display: block;
   }
-
-  @media only screen and (max-width: $bp-extra-small) {
-    grid-column: 7/10;
-  }
 }
 
 .ham-btn span {
