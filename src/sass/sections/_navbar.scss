@@ -122,10 +122,11 @@
 /* TOGGLE MENU */
 .hamburger-react {
   grid-column: 9/12;
-  width: 8rem;
-  height: 6rem;
+  // width: 8rem;
+  // height: 6rem;
   padding: 0.4rem 0.8rem;
-  background: coral;
+  // background: coral;
+  color: whitesmoke;
   margin: auto;
   display: none;
 
@@ -133,10 +134,10 @@
     display: block;
   }
 
-  @media only screen and (max-width: $bp-extra-small) {
-    max-width: 6rem;
-    max-height: 4rem;
-  }
+  // @media only screen and (max-width: $bp-extra-small) {
+  //   max-width: 6rem;
+  //   max-height: 4rem;
+  // }
 }
 // .ham-btn {
 //   grid-column: 9/12;
