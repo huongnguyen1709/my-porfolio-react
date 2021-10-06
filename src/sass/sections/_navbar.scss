@@ -134,8 +134,8 @@
   }
 
   @media only screen and (max-width: $bp-extra-small) {
-    max-width: 6.5rem;
-    max-height: 4.5rem;
+    max-width: 6rem;
+    max-height: 4rem;
   }
 }
 
@@ -149,6 +149,7 @@
 
   @media only screen and (max-width: $bp-extra-small) {
     margin: 0.7rem 0;
+    max-width: 95%;
     max-height: 0.3rem;
   }
 }
