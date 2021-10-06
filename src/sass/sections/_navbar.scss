@@ -121,7 +121,7 @@
 
 /* TOGGLE MENU */
 .ham-btn {
-  grid-column: 9/11;
+  grid-column: 9/12;
   width: 8rem;
   height: 6rem;
   padding: 0.4rem 0.8rem;
@@ -148,7 +148,7 @@
   transition: 0.5s;
 
   @media only screen and (max-width: $bp-extra-small) {
-    margin: 0.7rem 0;
+    margin: 0.6rem 0;
     max-width: 95%;
     max-height: 0.3rem;
   }
