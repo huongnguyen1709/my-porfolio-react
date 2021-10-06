@@ -1,7 +1,7 @@
 /* HEADER */
 
 .home {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url(../../imgs/background/background_home.png);
   background-position: center;
@@ -10,6 +10,10 @@
   display: grid;
   grid-template-rows: 10vh 18vh min-content 1fr 18vh;
   grid-template-columns: 1fr repeat(10, minmax(10rem, 15rem)) 1fr;
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-rows: 10vh 35vh 25vh 1fr 15vh;
+  }
 }
 
 .about {

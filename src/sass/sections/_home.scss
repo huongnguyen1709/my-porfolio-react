@@ -4,6 +4,34 @@
   font-size: 4rem;
 
   margin: auto;
+
+  @media only screen and (max-width: $bp-largest) {
+    grid-column: 3/7;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 2/6;
+  }
+
+  @media only screen and (max-width: $bp-medium-xm) {
+    grid-column: 3/7;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    grid-column: 3/11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: $bp-small-xs) {
+    grid-column: 4/9;
+  }
+
+  @media only screen and (max-width: $bp-extra-small) {
+    grid-column: 3/9;
+  }
 }
 
 .title {
@@ -35,21 +63,55 @@
 }
 
 .huong-picture {
-  width: 35rem;
-  height: 35rem;
+  max-width: 35rem;
+  max-height: 35rem;
   grid-row: 3/4;
   grid-column: 8/12;
   border-radius: 50%;
   margin: auto;
+
+  @media only screen and (max-width: $bp-largest) {
+    grid-column: 8/11;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 9/12;
+  }
+
+  @media only screen and (max-width: $bp-medium-xm) {
+    grid-column: 8/12;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    max-width: 30rem;
+    max-height: 30rem;
+    grid-row: 2/3;
+    grid-column: 3/11;
+  }
+
+  @media only screen and (max-width: $bp-small-xs) {
+    grid-column: 4/9;
+  }
+
+  @media only screen and (max-width: $bp-extra-small) {
+    grid-column: 3/9;
+  }
 }
 
 .line {
   grid-row: 4/5;
-  grid-column: 6/8;
-  width: 18vw;
+  grid-column: 5/9;
+  width: 30rem;
   height: 0.3rem;
 
-  margin-top: auto;
-
+  margin: auto auto 0 auto;
   background-color: rgb(121, 85, 72);
+
+  @media only screen and (max-width: $bp-small-xs) {
+    grid-column: 4/9;
+  }
+
+  @media only screen and (max-width: $bp-extra-small) {
+    grid-column: 3/9;
+  }
 }

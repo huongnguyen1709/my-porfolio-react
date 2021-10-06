@@ -14,7 +14,7 @@ const Header = () => {
     <div className="home">
          <NavBar />
        <div className="header">
-           <span className="huongnguyen">Huong Nguyen</span>  
+           <div className="huongnguyen">Huong Nguyen</div>  
            <div className="title"><span className="full-stack">Full-Stack</span> Developer</div>
           <Link to="/projects" className="btn-click">View my work</Link>
        </div>
@@ -22,13 +22,14 @@ const Header = () => {
 
        <div className="line"></div>
 
-        <div className="js-container"><img src={javascript} alt="javascript-logo" className="logo" /></div>
+       <div className="logo_container">
+            <img src={javascript} alt="javascript-logo" className="logo" />
+            <img src={react} alt="react-logo" className="logo" />
+            <img src={nodejs} alt="typescript-logo" className="logo" />
+            <img src={mongoDB} alt="mongoDB-logo" className="logo" />
+       </div>
 
-        <div className="react-container"><img src={react} alt="react-logo" className="logo" /></div>
-
-        <div className="nodejs-container"><img src={nodejs} alt="typescript-logo" className="logo" /></div>
-
-        <div className="mongoDB-container"><img src={mongoDB} alt="mongoDB-logo" className="logo" /></div>
+       
     </div>
     );
 };
