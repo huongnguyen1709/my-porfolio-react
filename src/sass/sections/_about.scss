@@ -21,20 +21,72 @@
   background-color: white;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
 
+  @media only screen and (max-width: $bp-largest-xxl) {
+    height: 60rem;
+  }
+
   &--1 {
     grid-column: 2/4;
+
+    @media only screen and (max-width: $bp-largest-xxl) {
+      grid-column: 4/7;
+    }
+
+    @media only screen and (max-width: $bp-largest-xl) {
+      grid-column: 2/4;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      grid-column: 4/7;
+    }
   }
 
   &--2 {
     grid-column: 5/7;
+
+    @media only screen and (max-width: $bp-largest-xxl) {
+      grid-column: 8/11;
+    }
+
+    @media only screen and (max-width: $bp-largest-xl) {
+      grid-column: 5/7;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      grid-column: 8/11;
+    }
   }
 
   &--3 {
     grid-column: 8/10;
+
+    @media only screen and (max-width: $bp-largest-xxl) {
+      grid-column: 4/7;
+    }
+
+    @media only screen and (max-width: $bp-largest-xl) {
+      grid-column: 8/10;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      grid-column: 4/7;
+    }
   }
 
   &--4 {
     grid-column: 11/13;
+
+    @media only screen and (max-width: $bp-largest-xxl) {
+      grid-column: 8/11;
+    }
+
+    @media only screen and (max-width: $bp-largest-xl) {
+      grid-column: 11/13;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      grid-column: 8/11;
+    }
   }
 }
 
@@ -46,6 +98,10 @@
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+  @media only screen and (max-width: $bp-largest-xxl) {
+    height: 25rem;
+  }
 
   &--1 {
     background-image: linear-gradient(

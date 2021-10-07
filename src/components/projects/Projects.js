@@ -36,7 +36,6 @@ const Projects = () => {
 
     return (
         <div className="projects">
-            <NavBar />
             <h2 className="heading-projects">My Work</h2>
 
             <div className="projects_container">

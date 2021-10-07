@@ -5,7 +5,6 @@ import NavBar from '../home/NavBar';
 const Contact = () => {
     return (
         <div className="contact">
-            <NavBar />
             <div className="contact_container">
                 <h2 class="contact_info--title">Get in Touch</h2>
                 <h3><i class="fas fa-phone-square-alt"></i> +358 46 628 5973</h3>

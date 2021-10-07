@@ -1,21 +1,20 @@
 import React, {useState} from 'react';
-import { Link, useLocation, NavLink } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Hamburger from 'hamburger-react'
 
 const NavBar = () => {
     const [isOpen, setOpen] = useState(false)
     const location = useLocation();
     const pathname = location.pathname
-    console.log(location.pathname);
 
     return (
         <nav className="navigation">
            
             <div className="hn"><Link to="/" className="nav-link hn-logo"><i class="fab fa-angellist"></i> HN</Link></div>
             
-            <div className="btn-about-container"><Link to="/about" className="nav-link">About</Link></div>
-            <div className="btn-projects-container"><Link to="/projects" className="nav-link">Projects</Link></div>
-            <div className="btn-contact-container"><Link to="/contact" className="nav-link contact_btn">Contact</Link></div>
+            <div className="btn-about-container"><Link to="/about" className={pathname === '/about' ? 'nav-link underline' : 'nav-link'}>About</Link></div>
+            <div className="btn-projects-container"><Link to="/projects" className={pathname === '/projects' ? 'nav-link underline' : 'nav-link'}>Projects</Link></div>
+            <div className="btn-contact-container"><Link to="/contact" className={pathname === '/contact' ? 'nav-link contact_btn underline' : 'nav-link contact_btn'}>Contact</Link></div>
           
 
             {/* Toggle Menu */}

@@ -2,13 +2,13 @@
 
 .home {
   width: 100vw;
-  height: 100vh;
-  background-image: url(../../imgs/background/background_home.png);
-  background-position: center;
-  background-size: cover;
+  height: 90vh;
+  // background-image: url(../../imgs/background/background_home.png);
+  // background-position: center;
+  // background-size: cover;
 
   display: grid;
-  grid-template-rows: 10vh 18vh min-content 1fr 18vh;
+  grid-template-rows: 18vh min-content 1fr 18vh;
   grid-template-columns: 1fr repeat(10, minmax(10rem, 15rem)) 1fr;
 
   @media only screen and (max-width: $bp-small) {
@@ -22,6 +22,67 @@
 }
 
 .about {
+  // background-image: linear-gradient(
+  //     rgba(0, 0, 0, 0.5) 100%,
+  //     rgba(0, 0, 0, 0.5) 100%
+  //   ),
+  //   url(../../imgs/background/background_about.jpeg);
+  // background-position: center;
+  // background-size: cover;
+
+  display: grid;
+  grid-template-rows: 15vh 12vw 70vh;
+  grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
+
+  @media only screen and (max-width: $bp-largest-xxl) {
+    grid-template-rows: 10vh 15vh 12vw 75vh 75vh;
+  }
+
+  @media only screen and (max-width: $bp-largest-xl) {
+    grid-template-rows: 10vh 15vh 12vw 70vh;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    grid-template-rows: 10vh 15vh 12vw 65rem 65rem;
+  }
+}
+
+.projects {
+  height: 90vh;
+  // background-image: linear-gradient(
+  //     rgba(117, 129, 234, 0.5) 100%,
+  //     rgba(62, 91, 126, 0.5) 100%
+  //   ),
+  //   url(../../imgs/background/background_projects.jpeg);
+  // background-position: bottom;
+  // background-size: cover;
+  display: grid;
+  grid-template-rows: 10vh 15vh min-content 5rem;
+  grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
+}
+
+.contact {
+  height: 90vh;
+  // background-image: linear-gradient(
+  //     rgba(54, 50, 50, 0.5) 100%,
+  //     rgba(63, 54, 107, 0.5) 100%
+  //   ),
+  //   url(../../imgs/background/background_contact.jpg);
+  // background-position: center;
+  // background-size: cover;
+
+  display: grid;
+  grid-template-rows: 10vh 1fr min-content 1fr min-content 4rem;
+  grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
+}
+
+.background_homepage {
+  background-image: url(../../imgs/background/background_home.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.background_about {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.5) 100%,
       rgba(0, 0, 0, 0.5) 100%
@@ -29,14 +90,9 @@
     url(../../imgs/background/background_about.jpeg);
   background-position: center;
   background-size: cover;
-
-  display: grid;
-  grid-template-rows: 10vh 15vh 12vw 70vh;
-  grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
 }
 
-.projects {
-  height: 100vh;
+.background_projects {
   background-image: linear-gradient(
       rgba(117, 129, 234, 0.5) 100%,
       rgba(62, 91, 126, 0.5) 100%
@@ -44,13 +100,9 @@
     url(../../imgs/background/background_projects.jpeg);
   background-position: bottom;
   background-size: cover;
-  display: grid;
-  grid-template-rows: 10vh 15vh min-content 5rem;
-  grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
 }
 
-.contact {
-  height: 100vh;
+.background_contact {
   background-image: linear-gradient(
       rgba(54, 50, 50, 0.5) 100%,
       rgba(63, 54, 107, 0.5) 100%
@@ -58,8 +110,4 @@
     url(../../imgs/background/background_contact.jpg);
   background-position: center;
   background-size: cover;
-
-  display: grid;
-  grid-template-rows: 10vh 1fr min-content 1fr min-content 4rem;
-  grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
 }

@@ -1,7 +1,7 @@
 /* NAVBAR */
 
 .navigation {
-  grid-column: 1/-1;
+  height: 10vh;
   box-shadow: 0 1rem 1rem rgba(4, 26, 62, 0.5);
 
   display: grid;
@@ -90,14 +90,26 @@
   font-weight: 700;
   text-decoration: none;
   color: whitesmoke;
+
+  @media only screen and (max-width: $bp-small-xs) {
+    font-size: 4rem;
+  }
 }
 
 .nav-link:hover {
   text-decoration: underline;
+
+  @media only screen and (max-width: $bp-small-xs) {
+    text-decoration: none;
+  }
 }
 
 .nav-link:active {
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .contact_btn {
@@ -106,8 +118,8 @@
 }
 
 .hn {
-  grid-column: 3/4;
-  margin: auto 0;
+  grid-column: 2/4;
+  margin: auto;
 
   @media only screen and (max-width: $bp-small-xs) {
     grid-column: 4/5;
@@ -131,39 +143,6 @@
     z-index: 2;
   }
 }
-// .ham-btn {
-//   grid-column: 9/12;
-//   width: 8rem;
-//   height: 6rem;
-//   padding: 0.4rem 0.8rem;
-//   background: coral;
-//   margin: auto;
-//   display: none;
-
-//   @media only screen and (max-width: $bp-small-xs) {
-//     display: block;
-//   }
-
-//   @media only screen and (max-width: $bp-extra-small) {
-//     max-width: 6rem;
-//     max-height: 4rem;
-//   }
-// }
-
-// .ham-btn span {
-//   width: 100%;
-//   height: 0.4rem;
-//   display: block;
-//   background: whitesmoke;
-//   margin: 1rem 0;
-//   transition: 0.5s;
-
-//   @media only screen and (max-width: $bp-extra-small) {
-//     margin: 0.6rem 0;
-//     max-width: 95%;
-//     max-height: 0.3rem;
-//   }
-// }
 
 .toggle_menu {
   position: fixed;
@@ -183,10 +162,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  // @media only screen and (max-width: $bp-small-xs) {
-  //   visibility: visible;
-  // }
 }
 
 .visible {
@@ -205,7 +180,6 @@
 }
 
 .selected {
-  // font-family: 'Lato', sans-serif;
   font-weight: bold;
   color: black;
 }
