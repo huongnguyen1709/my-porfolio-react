@@ -9,7 +9,6 @@
   @media only screen and (max-width: $bp-extra-small) {
     grid-column: auto;
     font-size: 6rem;
-    margin: auto;
   }
 }
 
@@ -220,6 +219,10 @@
 
       &:not(:last-child) {
         border-bottom: 1px solid #eee;
+      }
+
+      @media only screen and (max-width: $bp-extra-small) {
+        ont-size: 2rem;
       }
     }
   }
