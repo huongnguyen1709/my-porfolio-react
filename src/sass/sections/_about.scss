@@ -9,6 +9,7 @@
   @media only screen and (max-width: $bp-extra-small) {
     grid-column: auto;
     font-size: 6rem;
+    margin: 4rem auto 0 auto;
   }
 }
 
@@ -222,7 +223,7 @@
       }
 
       @media only screen and (max-width: $bp-extra-small) {
-        ont-size: 2rem;
+        font-size: 2rem;
       }
     }
   }
