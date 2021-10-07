@@ -8,6 +8,7 @@
 
   @media only screen and (max-width: $bp-small) {
     grid-column: auto;
+    font-size: 5rem;
   }
 }
 
@@ -20,6 +21,10 @@
   @media only screen and (max-width: $bp-small) {
     grid-column: auto;
     margin: 0 12rem;
+  }
+
+  @media only screen and (max-width: $bp-extra-small) {
+    margin: 0 4rem;
   }
 }
 
