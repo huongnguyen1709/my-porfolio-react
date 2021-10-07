@@ -85,8 +85,7 @@
   // background-size: cover;
 
   display: grid;
-  grid-template-rows: 10vh 1fr min-content 1fr min-content 4rem;
-  grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
+  grid-template-rows: 1fr 10rem;
 }
 
 .background_homepage {

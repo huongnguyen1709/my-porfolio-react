@@ -1,6 +1,4 @@
 .contact_container {
-  grid-column: 3/12;
-  grid-row: 3/4;
   color: white;
   font-size: 2rem;
 
@@ -29,8 +27,6 @@
 }
 
 .footer {
-  grid-row: 5/6;
-  grid-column: 4/11;
   //background-color: rgb(55, 59, 77);
 
   display: flex;
