@@ -17,7 +17,7 @@
   }
 
   @media only screen and (max-width: $bp-extra-small) {
-    grid-template-rows: 10vh min-content 35vh 1fr 15vh;
+    grid-template-rows: min-content 35vh 1fr 15vh;
   }
 }
 
@@ -35,15 +35,15 @@
   grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
 
   @media only screen and (max-width: $bp-largest-xxl) {
-    grid-template-rows: 10vh 15vh 12vw 75vh 75vh;
+    grid-template-rows: 15vh 12vw 75vh 75vh;
   }
 
   @media only screen and (max-width: $bp-largest-xl) {
-    grid-template-rows: 10vh 15vh 12vw 70vh;
+    grid-template-rows: 15vh 12vw 70vh;
   }
 
   @media only screen and (max-width: $bp-large) {
-    grid-template-rows: 10vh 15vh 12vw 65rem 65rem;
+    grid-template-rows: 15vh 12vw 65rem 65rem;
   }
 }
 
