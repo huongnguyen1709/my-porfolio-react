@@ -47,7 +47,7 @@
   }
 
   @media only screen and (max-width: $bp-extra-small) {
-    grid-template-rows: 10vh 40rem repeat(4, 60rem);
+    grid-template-rows: 10vh 40rem repeat(4, 64rem);
     grid-template-columns: none;
   }
 }
