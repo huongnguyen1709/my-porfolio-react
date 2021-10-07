@@ -64,6 +64,10 @@
   display: grid;
   grid-template-rows: 20vh min-content;
   grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-columns: none;
+  }
 }
 
 .contact {
