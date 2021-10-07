@@ -21,7 +21,7 @@
   @media only screen and (max-width: $bp-extra-small) {
     font-size: 3rem;
     grid-column: auto;
-    margin: auto 8rem;
+    margin: auto 6rem;
   }
 }
 
@@ -37,7 +37,8 @@
   }
 
   @media only screen and (max-width: $bp-extra-small) {
-    width: 40rem;
+    width: 30rem;
+    height: 50rem;
     margin: auto;
   }
 
