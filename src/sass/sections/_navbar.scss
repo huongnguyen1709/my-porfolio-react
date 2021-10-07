@@ -94,6 +94,10 @@
   @media only screen and (max-width: $bp-small-xs) {
     font-size: 4rem;
   }
+
+  @media only screen and (max-width: $bp-extra-small) {
+    font-size: 5rem;
+  }
 }
 
 .nav-link:hover {
@@ -140,7 +144,7 @@
 
   @media only screen and (max-width: $bp-small-xs) {
     display: block;
-    z-index: 2;
+    z-index: 101;
   }
 }
 
@@ -166,7 +170,7 @@
 
 .visible {
   visibility: visible;
-  z-index: 100;
+  z-index: 10;
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
   transition: all 0.5s;
@@ -174,7 +178,7 @@
 
 .hidden {
   visibility: hidden;
-  z-index: 100;
+  z-index: 10;
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   transition: all 0.5s;

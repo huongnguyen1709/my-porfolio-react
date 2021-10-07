@@ -45,6 +45,11 @@
   @media only screen and (max-width: $bp-large) {
     grid-template-rows: 15vh 12vw 65rem 65rem;
   }
+
+  @media only screen and (max-width: $bp-extra-small) {
+    grid-template-rows: 14vh 40rem repeat(4, 65rem);
+    grid-template-columns: none;
+  }
 }
 
 .projects {
