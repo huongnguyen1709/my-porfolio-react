@@ -56,7 +56,8 @@
   border-radius: 3rem;
 
   @media only screen and (max-width: $bp-extra-small) {
-    width: 8rem;
+    width: 9rem;
+    font-size: 2.5rem;
   }
 
   &--link {
