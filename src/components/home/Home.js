@@ -13,7 +13,7 @@ const Header = () => {
        <div className="header">
            <div className="huongnguyen">Huong Nguyen</div>  
            <div className="title"><span className="full-stack">Full-Stack</span> Developer</div>
-          <Link to="/projects" className="btn-click">View my work</Link>
+           <Link to="/projects" className="btn-click">View my work</Link>
        </div>
        <img src={profile} alt="huong" className="huong-picture" />
 

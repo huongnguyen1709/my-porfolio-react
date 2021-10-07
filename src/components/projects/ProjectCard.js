@@ -8,8 +8,8 @@ const ProjectCard = ({project}) => {
         {
             project.languages && project.languages.map((skill, index) =>  <div key={index+1} className={`project_skill--${index+1}`}>{skill}</div>)
         }
-        <button className="btn btn--view"><a href={project.demo} target="_blank" className="btn--link" rel="noreferrer" >Demo</a></button>     
-        <button className="btn btn--github"><a href={project.github} target="_blank" className="btn--link" rel="noreferrer" >Github</a></button>               
+        <a href={project.demo} target="_blank" className="btn btn--view btn--link" rel="noreferrer" >Demo</a>  
+        <a href={project.github} target="_blank" className="btn btn--github btn--link" rel="noreferrer" >Github</a>            
     </div>
     );
 };
