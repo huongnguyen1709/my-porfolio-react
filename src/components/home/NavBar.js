@@ -21,10 +21,38 @@ const NavBar = () => {
             <Hamburger toggled={isOpen} toggle={setOpen}  />
     
             <div className={isOpen ? 'toggle_menu visible' : 'toggle_menu hidden'}>
-                <Link to="/" className={pathname === '/' ? 'nav-link selected' : 'nav-link'}>Home</Link>
-                <Link to="/about" className={pathname === '/about' ? 'nav-link selected' : 'nav-link'}>About</Link>
-                <Link to="/projects" className={pathname === '/projects' ? 'nav-link selected' : 'nav-link'}>Projects</Link>
-                <Link to="/contact" className={pathname === '/contact' ? 'nav-link selected' : 'nav-link'}>Contact</Link>
+                <Link 
+                    to="/" 
+                    className={pathname === '/' ? 'nav-link selected' : 'nav-link'}
+                    onClick={() => setOpen(false)}
+                >
+                    Home
+                </Link>
+
+                <Link 
+                    to="/about" 
+                    className={pathname === '/about' ? 'nav-link selected' : 'nav-link'}
+                    onClick={() => setOpen(false)}
+                >
+                    About
+                </Link>
+
+                <Link 
+                    to="/projects" 
+                    className={pathname === '/projects' ? 'nav-link selected' : 'nav-link'}
+                    onClick={() => setOpen(false)}
+                >
+                    Projects
+                </Link>
+
+                <Link 
+                    to="/contact" 
+                    className={pathname === '/contact' ? 'nav-link selected' : 'nav-link'}
+                    onClick={() => setOpen(false)}
+                >
+                    Contact
+                </Link>
+
             </div> 
         </nav>
        
