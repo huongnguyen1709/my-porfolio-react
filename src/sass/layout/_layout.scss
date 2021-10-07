@@ -62,7 +62,7 @@
   // background-position: bottom;
   // background-size: cover;
   display: grid;
-  grid-template-rows: 10vh 15vh min-content 5rem;
+  grid-template-rows: 20vh min-content;
   grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
 }
 
