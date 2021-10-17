@@ -6,6 +6,7 @@ import javascript from '../../imgs/logos/javascript.png';
 import react from '../../imgs/logos/react.png';
 import nodejs from '../../imgs/logos/nodejs.png';
 import mongoDB from '../../imgs/logos/mongoDB.png';
+import About from '../about/About';
 
 const Header = () => {
     return (

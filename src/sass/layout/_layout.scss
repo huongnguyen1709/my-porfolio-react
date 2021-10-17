@@ -92,16 +92,24 @@
   background-image: url(../../imgs/background/background_home.png);
   background-position: center;
   background-size: cover;
+
+  overflow: hidden;
+  position: relative;
+  // background-color: black;
 }
 
 .background_about {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5) 100%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
-    url(../../imgs/background/background_about.jpeg);
-  background-position: center;
-  background-size: cover;
+  // background-image: linear-gradient(
+  //     rgba(0, 0, 0, 0.5) 100%,
+  //     rgba(0, 0, 0, 0.5) 100%
+  //   ),
+  //   url(../../imgs/background/background_about.jpeg);
+  // background-position: center;
+  // background-size: cover;
+
+  overflow: hidden;
+  position: relative;
+  background-color: black;
 }
 
 .background_projects {
@@ -112,6 +120,9 @@
     url(../../imgs/background/background_projects.jpeg);
   background-position: bottom;
   background-size: cover;
+
+  overflow: hidden;
+  position: relative;
 }
 
 .background_contact {
@@ -122,4 +133,7 @@
     url(../../imgs/background/background_contact.jpg);
   background-position: center;
   background-size: cover;
+
+  overflow: hidden;
+  position: relative;
 }

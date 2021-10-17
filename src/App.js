@@ -16,6 +16,7 @@ import './sass/main.scss';
 import backgroundHome from './imgs/background/background_home.png'
 import backgroundAbout from './imgs/background/background_about.jpeg'
 import Background from "./components/Background";
+import Particles from "./components/Particles";
 
 function App() {
   // const location = useLocation();
@@ -38,6 +39,7 @@ function App() {
   return (
     <Router>
       <Background />
+
         {/* <NavBar />
        <Switch>
         <Route exact path='/' component={Home} />
@@ -45,6 +47,8 @@ function App() {
         <Route path='/projects' component={Projects} />
         <Route path='/contact' component={Contact} />
         </Switch>  */}
+
+        
     
     </Router>
    

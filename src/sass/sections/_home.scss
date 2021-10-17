@@ -62,9 +62,60 @@
   max-width: 35rem;
   max-height: 35rem;
   grid-row: 2/3;
-  grid-column: 8/12;
+  // grid-column: 8/12;
+
   border-radius: 50%;
+  box-shadow: rgba(254, 254, 254, 0.25) 0px 50px 100px -20px,
+    rgba(241, 239, 239, 0.3) 0px 30px 60px -30px,
+    rgba(254, 254, 254, 0.35) 0px -2px 6px 0px inset;
   margin: auto;
+
+  animation: picture-frames 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+
+  @keyframes picture-frames {
+    0% {
+      grid-column: 12 / end;
+      opacity: 0.2;
+      transform: translateY(-150px) rotate(0);
+    }
+
+    30% {
+      grid-column: 11 / end;
+      opacity: 0.5;
+      transform: rotate(-45deg);
+    }
+
+    50% {
+      grid-column: 10 / end;
+      opacity: 0.7;
+      transform: rotate(-180deg);
+    }
+
+    70% {
+      grid-column: 9/12;
+      opacity: 0.8;
+    }
+
+    100% {
+      grid-column: 8/12;
+      opacity: 1;
+      transform: rotate(-360deg);
+    }
+  }
+
+  @keyframes changeborder {
+    from {
+      box-shadow: none;
+    }
+
+    to {
+      box-shadow: rgba(254, 254, 254, 0.25) 0px 50px 100px -20px,
+        rgba(241, 239, 239, 0.3) 0px 30px 60px -30px,
+        rgba(254, 254, 254, 0.35) 0px -2px 6px 0px inset;
+    }
+  }
 
   @media only screen and (max-width: $bp-largest-xl) {
     grid-column: 8/11;
