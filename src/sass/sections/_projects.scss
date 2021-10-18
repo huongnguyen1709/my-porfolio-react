@@ -36,6 +36,9 @@
   );
 
   font-size: 1.8rem;
+  border: 0.1rem solid rgb(51, 49, 48);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgb(36, 35, 35);
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -79,6 +82,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.project:hover {
+  box-shadow: 0 0.5rem 1rem coral;
 }
 
 .list {

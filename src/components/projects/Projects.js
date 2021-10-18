@@ -3,8 +3,8 @@ import React, {useState} from 'react';
 import quizApp from '../../imgs/projects/quiz-app.png'
 import dragdropColor from '../../imgs/projects/drag-drop-color.png'
 import marioBlog from '../../imgs/projects/mario-blog.png'
-import NavBar from '../home/NavBar';
 import ProjectCard from './ProjectCard';
+import Footer from '../contact/Footer';
 
 
 const Projects = () => {

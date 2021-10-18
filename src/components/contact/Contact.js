@@ -1,6 +1,5 @@
 import React from 'react';
 import Footer from './Footer';
-import NavBar from '../home/NavBar';
 
 const Contact = () => {
     return (
@@ -18,8 +17,6 @@ const Contact = () => {
                         class="fab fa-linkedin icon"></i></a></li>
                 </ul>
             </div>
-
-            <Footer />
             
         </div>
     );

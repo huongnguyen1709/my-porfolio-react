@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import CardSlider from './CardSlider';
 
+import Footer from "../contact/Footer";
+
 
 const About = () => {
     const [skills, setSkills] = useState([
@@ -43,23 +45,8 @@ const About = () => {
             &nbsp; &nbsp; • &nbsp; TypeScript, Full Stack Open 2021, University of Helsinki & Houston Inc.  <br></br> 
             &nbsp; &nbsp; • &nbsp; CI/CD, Full Stack Open 2021, University of Helsinki & Houston Inc.  <br></br> 
             </p>
-            
-          
-            {/* <i class="fas fa-arrow-left icon_arrow" ></i>
-                <div className="card_container">
-                
-                    {
-                        skills && skills.map((skill, index) => {
-                            let position = index > 0 ? "nextCard" : index === 0 ? 
-                            "activeCard" : "prevCard";
-                            return <SkillsCard key={index+1} skill={skill} index={index+1} cardStyle={position} />
-                        } )
-                    }
-                    
-                </div>
-                <i class="fas fa-arrow-right icon_arrow" onClick={onSlide}></i> */}
-                   <CardSlider skills = {skills} />
-                   
+    
+            <CardSlider skills = {skills} />
         
         </div>
     );

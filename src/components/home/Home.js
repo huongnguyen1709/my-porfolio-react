@@ -17,14 +17,14 @@ const Header = () => {
        </div>
        <img src={profile} alt="huong" className="huong-picture" />
 
-       <div className="line"></div>
+       {/* <div className="line"></div>
 
        <div className="logo_container">
             <img src={javascript} alt="javascript-logo" className="logo" />
             <img src={react} alt="react-logo" className="logo" />
             <img src={nodejs} alt="typescript-logo" className="logo" />
             <img src={mongoDB} alt="mongoDB-logo" className="logo" />
-       </div>
+       </div> */}
 
        
     </div>

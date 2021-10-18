@@ -2,10 +2,7 @@
 
 .home {
   width: 100vw;
-  height: 90vh;
-  // background-image: url(../../imgs/background/background_home.png);
-  // background-position: center;
-  // background-size: cover;
+  height: calc(90vh - 10rem);
 
   display: grid;
   grid-template-rows: 18vh min-content 1fr 18vh;
@@ -22,14 +19,6 @@
 }
 
 .about {
-  // background-image: linear-gradient(
-  //     rgba(0, 0, 0, 0.5) 100%,
-  //     rgba(0, 0, 0, 0.5) 100%
-  //   ),
-  //   url(../../imgs/background/background_about.jpeg);
-  // background-position: center;
-  // background-size: cover;
-
   display: grid;
   grid-template-rows: 15vh 80rem 80vh;
 
@@ -52,16 +41,9 @@
 }
 
 .projects {
-  height: 90vh;
-  // background-image: linear-gradient(
-  //     rgba(117, 129, 234, 0.5) 100%,
-  //     rgba(62, 91, 126, 0.5) 100%
-  //   ),
-  //   url(../../imgs/background/background_projects.jpeg);
-  // background-position: bottom;
-  // background-size: cover;
+  height: calc(90vh - 10rem);
   display: grid;
-  grid-template-rows: 20vh min-content;
+  grid-template-rows: 20vh min-content 10rem;
   grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
 
   @media only screen and (max-width: $bp-small) {
@@ -74,65 +56,5 @@
 }
 
 .contact {
-  height: 90vh;
-  // background-image: linear-gradient(
-  //     rgba(54, 50, 50, 0.5) 100%,
-  //     rgba(63, 54, 107, 0.5) 100%
-  //   ),
-  //   url(../../imgs/background/background_contact.jpg);
-  // background-position: center;
-  // background-size: cover;
-
-  display: grid;
-  grid-template-rows: 1fr 10rem;
-}
-
-.background_homepage {
-  background-image: url(../../imgs/background/background_home.png);
-  background-position: center;
-  background-size: cover;
-
-  overflow: hidden;
-  position: relative;
-  // background-color: black;
-}
-
-.background_about {
-  // background-image: linear-gradient(
-  //     rgba(0, 0, 0, 0.5) 100%,
-  //     rgba(0, 0, 0, 0.5) 100%
-  //   ),
-  //   url(../../imgs/background/background_about.jpeg);
-  // background-position: center;
-  // background-size: cover;
-
-  overflow: hidden;
-  position: relative;
-  background-color: black;
-}
-
-.background_projects {
-  background-image: linear-gradient(
-      rgba(117, 129, 234, 0.5) 100%,
-      rgba(62, 91, 126, 0.5) 100%
-    ),
-    url(../../imgs/background/background_projects.jpeg);
-  background-position: bottom;
-  background-size: cover;
-
-  overflow: hidden;
-  position: relative;
-}
-
-.background_contact {
-  background-image: linear-gradient(
-      rgba(54, 50, 50, 0.5) 100%,
-      rgba(63, 54, 107, 0.5) 100%
-    ),
-    url(../../imgs/background/background_contact.jpg);
-  background-position: center;
-  background-size: cover;
-
-  overflow: hidden;
-  position: relative;
+  height: calc(90vh - 10rem);
 }

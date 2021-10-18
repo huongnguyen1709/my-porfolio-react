@@ -1,0 +1,40 @@
+.background_homepage {
+  background-image: url(../../imgs/background/background_home.png);
+  background-position: center;
+  background-size: cover;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.background_about {
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+}
+
+.background_projects {
+  background-image: linear-gradient(
+      rgba(117, 129, 234, 0.5) 100%,
+      rgba(62, 91, 126, 0.5) 100%
+    ),
+    url(../../imgs/background/background_projects.jpeg);
+  background-position: bottom;
+  background-size: cover;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.background_contact {
+  background-image: linear-gradient(
+      rgba(54, 50, 50, 0.5) 100%,
+      rgba(63, 54, 107, 0.5) 100%
+    ),
+    url(../../imgs/background/background_contact.jpg);
+  background-position: center;
+  background-size: cover;
+
+  overflow: hidden;
+  position: relative;
+}
