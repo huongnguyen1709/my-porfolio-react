@@ -1,0 +1,63 @@
+.slider-container {
+  width: 80%;
+  margin: auto;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#slider {
+  width: 90%;
+  height: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  overflow: hidden;
+
+  //background-color: yellowgreen;
+  margin: auto;
+}
+
+.slider-icon.left,
+.slider-icon.right {
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  opacity: 0.5;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(0, 0, 12);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.slider-icon.left {
+  left: 0;
+}
+
+.slider-icon.right {
+  right: 0;
+}
+
+.slider-icon.left:hover,
+.slider-icon.right:hover {
+  opacity: 1;
+}
+
+// .icon_arrow {
+//   font-size: 5rem;
+//   color: whitesmoke;
+//   margin: auto;
+// }
+
+// .card_container {
+//   position: relative;
+//   width: 100rem;
+//   overflow: hidden;
+
+//   margin: 0 auto;
+//   background-color: coral;
+//   display: flex;
+//   justify-content: space-between;
+// }

@@ -1,5 +1,4 @@
 .heading-about {
-  grid-column: 2/12;
   margin: 8vh auto 0 auto;
   font-family: 'Dancing Script', cursive;
   font-size: 5rem;
@@ -18,9 +17,11 @@
 }
 
 .introduce {
-  grid-column: 4/11;
+  width: 100rem;
   font-size: 2.2rem;
-  margin: 0;
+  border: 2px solid coral;
+  margin: 3rem auto 8rem auto;
+  padding: 4rem;
   color: rgb(224, 214, 214);
 
   @media only screen and (max-width: $bp-large) {
@@ -34,11 +35,24 @@
   }
 }
 
+.track {
+  width: 50rem;
+  margin: auto;
+}
+
 .card {
   position: relative;
-  height: 55rem;
-  background-color: white;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  width: 36rem;
+  // height: 65rem;
+  //margin: auto;
+  display: inline-grid;
+  //margin-left: 9rem;
+  margin-right: 9rem;
+  border: 0.2rem solid coral;
+  border-radius: 0.5rem;
+
+  //background-color: whitesmoke;
+  box-shadow: 0 0.5rem 1rem coral;
   z-index: 1;
 
   @media only screen and (max-width: $bp-largest-xxl) {
@@ -52,84 +66,93 @@
   }
 
   &--1 {
-    grid-column: 2/4;
+    // left: 7rem;
 
-    @media only screen and (max-width: $bp-largest-xxl) {
-      grid-column: 4/7;
-    }
+    // grid-column: 2/4;
 
-    @media only screen and (max-width: $bp-largest-xl) {
-      grid-column: 2/4;
-    }
+    // @media only screen and (max-width: $bp-largest-xxl) {
+    //   grid-column: 4/7;
+    // }
 
-    @media only screen and (max-width: $bp-large) {
-      grid-column: 4/7;
-    }
+    // @media only screen and (max-width: $bp-largest-xl) {
+    //   grid-column: 2/4;
+    // }
 
-    @media only screen and (max-width: $bp-extra-small) {
-      grid-column: auto;
-    }
+    // @media only screen and (max-width: $bp-large) {
+    //   grid-column: 4/7;
+    // }
+
+    // @media only screen and (max-width: $bp-extra-small) {
+    //   grid-column: auto;
+    // }
   }
 
   &--2 {
-    grid-column: 5/7;
+    // left: 57rem;
+    // grid-column: 5/7;
 
-    @media only screen and (max-width: $bp-largest-xxl) {
-      grid-column: 8/11;
-    }
+    // @media only screen and (max-width: $bp-largest-xxl) {
+    //   grid-column: 8/11;
+    // }
 
-    @media only screen and (max-width: $bp-largest-xl) {
-      grid-column: 5/7;
-    }
+    // @media only screen and (max-width: $bp-largest-xl) {
+    //   grid-column: 5/7;
+    // }
 
-    @media only screen and (max-width: $bp-large) {
-      grid-column: 8/11;
-    }
+    // @media only screen and (max-width: $bp-large) {
+    //   grid-column: 8/11;
+    // }
 
-    @media only screen and (max-width: $bp-extra-small) {
-      grid-column: auto;
-    }
+    // @media only screen and (max-width: $bp-extra-small) {
+    //   grid-column: auto;
+    // }
   }
 
   &--3 {
-    grid-column: 8/10;
+    // left: 100rem;
+    // grid-column: 8/10;
 
-    @media only screen and (max-width: $bp-largest-xxl) {
-      grid-column: 4/7;
-    }
+    // @media only screen and (max-width: $bp-largest-xxl) {
+    //   grid-column: 4/7;
+    // }
 
-    @media only screen and (max-width: $bp-largest-xl) {
-      grid-column: 8/10;
-    }
+    // @media only screen and (max-width: $bp-largest-xl) {
+    //   grid-column: 8/10;
+    // }
 
-    @media only screen and (max-width: $bp-large) {
-      grid-column: 4/7;
-    }
+    // @media only screen and (max-width: $bp-large) {
+    //   grid-column: 4/7;
+    // }
 
-    @media only screen and (max-width: $bp-extra-small) {
-      grid-column: auto;
-    }
+    // @media only screen and (max-width: $bp-extra-small) {
+    //   grid-column: auto;
+    // }
   }
 
   &--4 {
-    grid-column: 11/13;
+    // left: 100rem;
+    // grid-column: 11/13;
 
-    @media only screen and (max-width: $bp-largest-xxl) {
-      grid-column: 8/11;
-    }
+    // @media only screen and (max-width: $bp-largest-xxl) {
+    //   grid-column: 8/11;
+    // }
 
-    @media only screen and (max-width: $bp-largest-xl) {
-      grid-column: 11/13;
-    }
+    // @media only screen and (max-width: $bp-largest-xl) {
+    //   grid-column: 11/13;
+    // }
 
-    @media only screen and (max-width: $bp-large) {
-      grid-column: 8/11;
-    }
+    // @media only screen and (max-width: $bp-large) {
+    //   grid-column: 8/11;
+    // }
 
-    @media only screen and (max-width: $bp-extra-small) {
-      grid-column: auto;
-    }
+    // @media only screen and (max-width: $bp-extra-small) {
+    //   grid-column: auto;
+    // }
   }
+}
+
+.card:last-child {
+  margin-right: 2rem;
 }
 
 .card_picture {
@@ -223,7 +246,8 @@
 
     li {
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 2rem;
+      color: whitesmoke;
       padding: 1rem;
 
       &:not(:last-child) {

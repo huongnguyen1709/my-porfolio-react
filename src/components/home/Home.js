@@ -6,14 +6,13 @@ import javascript from '../../imgs/logos/javascript.png';
 import react from '../../imgs/logos/react.png';
 import nodejs from '../../imgs/logos/nodejs.png';
 import mongoDB from '../../imgs/logos/mongoDB.png';
-import About from '../about/About';
 
 const Header = () => {
     return (
     <div className="home">
        <div className="header">
            <div className="huongnguyen">Huong Nguyen</div>  
-           <div className="title"><span className="full-stack">Full-Stack</span> Developer</div>
+            <div className="title"><span className="full-stack">Full-stack</span> Developer</div>
            <Link to="/projects" className="btn-click">View my work</Link>
        </div>
        <img src={profile} alt="huong" className="huong-picture" />
