@@ -73,7 +73,7 @@
         to {
           transform: translate3d(
             #{random(100) + vw},
-            #{- $startPositionY - random(30) + vh},
+            #{- $startPositionY - random(120) + vh},
             0
           );
         }

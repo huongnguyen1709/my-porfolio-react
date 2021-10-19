@@ -20,9 +20,9 @@
   align-items: center;
   border-radius: 3rem;
 
-  @media only screen and (max-width: $bp-extra-small) {
-    font-size: 3rem;
-  }
+  // @media only screen and (max-width: $bp-extra-small) {
+  //   font-size: 3rem;
+  // }
 }
 
 .btn-click:hover {
@@ -55,10 +55,10 @@
   align-items: center;
   border-radius: 3rem;
 
-  @media only screen and (max-width: $bp-extra-small) {
-    width: 9rem;
-    font-size: 2.5rem;
-  }
+  // @media only screen and (max-width: $bp-extra-small) {
+  //   width: 9rem;
+  //   font-size: 2.5rem;
+  // }
 
   &--link {
     text-decoration: none;

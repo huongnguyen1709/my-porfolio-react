@@ -1,5 +1,5 @@
 .heading-projects {
-  grid-column: 1/-1;
+  // grid-column: 1/-1;
   font-family: 'Dancing Script', cursive;
   font-size: 4rem;
   color: rgb(221, 204, 204);
@@ -13,19 +13,29 @@
 }
 
 .projects_container {
-  grid-column: 3/12;
+  // grid-column: 3/12;
+  width: 80%;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 7rem;
 
+  @media only screen and (max-width: $bp-largest-3xl) {
+    width: 90%;
+  }
+
+  @media only screen and (max-width: $bp-largest-xxl) {
+    width: 80%;
+  }
+
   @media only screen and (max-width: $bp-small) {
-    grid-column: auto;
+    // grid-column: auto;
     margin: 0 12rem;
   }
 
-  @media only screen and (max-width: $bp-extra-small) {
-    margin: 0 7rem 4rem 7rem;
-  }
+  // @media only screen and (max-width: $bp-extra-small) {
+  //   margin: 0 7rem 4rem 7rem;
+  // }
 }
 
 .project {
@@ -36,7 +46,7 @@
   );
 
   font-size: 1.8rem;
-  border: 0.1rem solid rgb(51, 49, 48);
+  border: 0.1rem solid rgb(171, 190, 99);
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgb(36, 35, 35);
 
@@ -44,9 +54,9 @@
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 3.5rem;
 
-  @media only screen and (max-width: $bp-extra-small) {
-    font-size: 2.5rem;
-  }
+  // @media only screen and (max-width: $bp-extra-small) {
+  //   font-size: 2.5rem;
+  // }
 
   &_img {
     width: 100%;
@@ -85,7 +95,7 @@
 }
 
 .project:hover {
-  box-shadow: 0 0.5rem 1rem coral;
+  box-shadow: 0 0.5rem 1rem rgb(224, 219, 219);
 }
 
 .list {

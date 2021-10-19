@@ -1,12 +1,13 @@
 // RESPONSIVE BREAKPOINTS
-$bp-largest-xxl: 109.375em; // 1750 px
-$bp-largest-xl: 93.75em; // 1500 px
+$bp-largest-3xl: 120em; // 1920 px done
+$bp-largest-xxl: 112em; // 1792 px
+$bp-largest-xl: 96em; // 1536 px
 $bp-large: 85.375em; // 1366 px
-$bp-medium: 68.75em; // 1100 px
-$bp-medium-xm: 62.5em; // 1000 px
-$bp-small: 43.125em; // 690 px
-$bp-small-xs: 34.375em; // 550 px
-$bp-extra-small: 26.75em; // 428 px
+$bp-extra-medium: 64em; // 1024 px
+$bp-medium: 50em; // 800 px
+$bp-small: 26.75em; // 428 px
+$bp-small-xs: 23.4375em; // 375 px
+$bp-small-xxs: 22.5em; // 360 px
 
 *,
 *::after,
@@ -20,16 +21,12 @@ html {
   font-size: 62.5%; /* 1rem = 10px */
   overflow-x: hidden;
 
-  @media only screen and (max-width: $bp-largest-xl) {
-    font-size: 50%; /* 1rem = 8px */
+  @media only screen and (max-width: $bp-largest-3xl) {
+    font-size: 75%; /* 1rem = 12px */
   }
 
-  @media only screen and (max-width: $bp-medium) {
-    font-size: 37.5%; /* 1rem = 6px */
-  }
-
-  @media only screen and (max-width: $bp-extra-small) {
-    font-size: 31.25%; /* 1rem = 5px */
+  @media only screen and (max-width: $bp-largest-xxl) {
+    font-size: 62.5%; /* 1rem = 10px */
   }
 }
 

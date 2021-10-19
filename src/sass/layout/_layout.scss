@@ -4,54 +4,35 @@
   width: 100vw;
   height: calc(90vh - 10rem);
 
-  display: grid;
-  grid-template-rows: 18vh min-content 1fr 18vh;
-  grid-template-columns: 1fr repeat(10, minmax(10rem, 15rem)) 1fr;
+  display: flex;
 
-  @media only screen and (max-width: $bp-small) {
-    grid-template-rows: 35vh 25vh 1fr 15vh;
-    grid-template-columns: none;
-  }
+  // display: grid;
+  // grid-template-rows: 18vh min-content 1fr 18vh;
+  // grid-template-columns: 1fr repeat(10, minmax(10rem, 15rem)) 1fr;
 
-  @media only screen and (max-width: $bp-extra-small) {
-    grid-template-rows: min-content 35vh 1fr 15vh;
-  }
+  // @media only screen and (max-width: $bp-small) {
+  //   grid-template-rows: 35vh 25vh 1fr 15vh;
+  //   grid-template-columns: none;
+  // }
+
+  // @media only screen and (max-width: $bp-extra-small) {
+  //   grid-template-rows: min-content 35vh 1fr 15vh;
+  // }
 }
 
 .about {
   display: grid;
   grid-template-rows: 15vh 80rem 80vh;
-
-  @media only screen and (max-width: $bp-largest-xxl) {
-    grid-template-rows: 15vh 12vw 75vh 75vh;
-  }
-
-  @media only screen and (max-width: $bp-largest-xl) {
-    grid-template-rows: 15vh 12vw 70vh;
-  }
-
-  @media only screen and (max-width: $bp-large) {
-    grid-template-rows: 15vh 12vw 65rem 65rem;
-  }
-
-  @media only screen and (max-width: $bp-extra-small) {
-    grid-template-rows: 10vh 40rem repeat(4, 65rem);
-    grid-template-columns: none;
-  }
 }
 
 .projects {
   height: calc(90vh - 10rem);
   display: grid;
-  grid-template-rows: 20vh min-content 10rem;
-  grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
+  grid-template-rows: 20vh min-content;
+  // grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
 
   @media only screen and (max-width: $bp-small) {
     grid-template-columns: none;
-  }
-
-  @media only screen and (max-width: $bp-extra-small) {
-    height: auto;
   }
 }
 

@@ -25,9 +25,9 @@
     grid-column: 9/10;
   }
 
-  @media only screen and (max-width: $bp-medium-xm) {
-    grid-column: 8/9;
-  }
+  // @media only screen and (max-width: $bp-medium-xm) {
+  //   grid-column: 8/9;
+  // }
 
   @media only screen and (max-width: $bp-small-xs) {
     display: none;
@@ -46,9 +46,9 @@
     grid-column: 10/11;
   }
 
-  @media only screen and (max-width: $bp-medium-xm) {
-    grid-column: 9/10;
-  }
+  // @media only screen and (max-width: $bp-medium-xm) {
+  //   grid-column: 9/10;
+  // }
 
   @media only screen and (max-width: $bp-small-xs) {
     display: none;
@@ -75,9 +75,9 @@
     grid-column: 11/12;
   }
 
-  @media only screen and (max-width: $bp-medium-xm) {
-    grid-column: 10/11;
-  }
+  // @media only screen and (max-width: $bp-medium-xm) {
+  //   grid-column: 10/11;
+  // }
 
   @media only screen and (max-width: $bp-small-xs) {
     display: none;
@@ -95,9 +95,9 @@
     font-size: 4rem;
   }
 
-  @media only screen and (max-width: $bp-extra-small) {
-    font-size: 5rem;
-  }
+  // @media only screen and (max-width: $bp-extra-small) {
+  //   font-size: 5rem;
+  // }
 }
 
 .nav-link:hover {
