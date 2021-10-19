@@ -32,6 +32,7 @@ const Projects = () => {
             demo: 'https://marioplan-66b4a.firebaseapp.com/signin',
             github: 'https://github.com/huongnguyen1709/MarioBlog-App'
         }
+
     ])
 
     return (
