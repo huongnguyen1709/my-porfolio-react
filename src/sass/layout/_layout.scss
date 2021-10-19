@@ -23,6 +23,10 @@
 .about {
   display: grid;
   grid-template-rows: 15vh 80rem 80vh;
+
+  @media only screen and (max-width: $bp-large) {
+    grid-template-rows: 20vh 80rem 90vh;
+  }
 }
 
 .projects {
@@ -30,6 +34,15 @@
   display: grid;
   grid-template-rows: 20vh min-content;
   // grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
+
+  @media only screen and (max-width: $bp-large) {
+    height: auto;
+  }
+
+  @media only screen and (max-width: $bp-extra-medium) {
+    grid-template-rows: 25vh min-content;
+    margin-bottom: 3rem;
+  }
 
   @media only screen and (max-width: $bp-small) {
     grid-template-columns: none;

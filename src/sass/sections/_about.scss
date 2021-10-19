@@ -23,6 +23,11 @@
   margin: 3rem auto 8rem auto;
   padding: 4rem;
   color: rgb(224, 214, 214);
+
+  @media only screen and (max-width: $bp-medium) {
+    width: 85%;
+    padding: 3rem;
+  }
 }
 
 .introduce:hover {

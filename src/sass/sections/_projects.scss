@@ -18,13 +18,25 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  grid-gap: 7rem;
+  grid-gap: 8rem;
 
   @media only screen and (max-width: $bp-largest-3xl) {
     width: 90%;
   }
 
   @media only screen and (max-width: $bp-largest-xxl) {
+    width: 80%;
+  }
+
+  @media only screen and (max-width: $bp-largest-xl) {
+    width: 90%;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    grid-gap: 6rem;
+  }
+
+  @media only screen and (max-width: $bp-extra-medium) {
     width: 80%;
   }
 
@@ -53,6 +65,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 3.5rem;
+
+  @media only screen and (max-width: $bp-large) {
+    transform: scale(0.95, 0.95);
+  }
 
   // @media only screen and (max-width: $bp-extra-small) {
   //   font-size: 2.5rem;
