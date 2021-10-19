@@ -44,7 +44,7 @@
   }
 
   @media only screen and (max-width: $bp-extra-medium-xm) {
-    grid-template-rows: 15vh 80rem 80vh;
+    grid-template-rows: 18vh 75rem 80vh;
   }
 
   @media only screen and (max-width: $bp-small) {
@@ -68,9 +68,9 @@
 
   // grid-template-columns: 1fr repeat(11, minmax(10rem, 15rem)) 1fr;
 
-  @media only screen and (max-width: $bp-large) {
-    height: auto;
-  }
+  // @media only screen and (max-width: $bp-large) {
+  //   height: auto;
+  // }
 
   @media only screen and (max-width: $bp-extra-medium) {
     grid-template-rows: 25vh min-content;

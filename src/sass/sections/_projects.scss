@@ -46,6 +46,7 @@
 }
 
 .project {
+  width: 40rem;
   background: linear-gradient(
     to right bottom,
     rgb(240, 240, 227),
@@ -63,7 +64,7 @@
 
   @media only screen and (max-width: $bp-large) {
     font-size: 2rem;
-    transform: scale(0.9, 0.9);
+    transform: scale(0.95, 0.95);
   }
 
   @media only screen and (max-width: $bp-extra-medium-xm) {
@@ -87,6 +88,7 @@
   &_name {
     grid-row: 1/2;
     grid-column: 1/-1;
+    font-size: 2rem;
     justify-self: center;
     align-self: end;
 
@@ -98,6 +100,10 @@
     color: whitesmoke;
     font-weight: 400;
     transform: translateY(50%);
+
+    @media only screen and (max-width: $bp-large) {
+      font-size: 2.2rem;
+    }
   }
 
   &_skill--1,
