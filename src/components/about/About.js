@@ -47,6 +47,8 @@ const About = () => {
             </p>
     
             <CardSlider skills = {skills} />
+
+            <Footer />
         
         </div>
     );

@@ -43,6 +43,8 @@ const Projects = () => {
                     projects && projects.map((project, index) => <ProjectCard key={index} project={project} />)
                 }                
             </div>
+
+            <Footer />
             
         </div>
     );

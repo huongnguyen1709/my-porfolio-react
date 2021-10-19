@@ -1,11 +1,22 @@
 /* NAVBAR */
 
+.nav_container {
+  width: 100%;
+  height: 10vh;
+}
+
 .navigation {
+  width: 100%;
   height: 10vh;
   box-shadow: 0 1rem 1rem rgba(4, 26, 62, 0.5);
-
   display: grid;
   grid-template-columns: 1fr repeat(10, minmax(min-content, 15rem)) 1fr;
+  position: fixed;
+  z-index: 90;
+
+  @media only screen and (max-width: $bp-small) {
+    background-color: rgba(61, 58, 58, 0.8);
+  }
 }
 
 .btn-about-container {
@@ -122,14 +133,17 @@
 
 /* TOGGLE MENU */
 .hamburger-react {
-  grid-column: 9/12;
+  //grid-column: 9/12;
   color: whitesmoke;
   margin: auto;
   display: none;
 
   @media only screen and (max-width: $bp-small) {
     display: block;
-    z-index: 101;
+    position: fixed !important;
+    top: 3rem !important;
+    left: 45rem !important;
+    z-index: 105;
   }
 }
 
@@ -139,6 +153,7 @@
   left: 0;
   height: 100%;
   width: 100%;
+  z-index: 100;
   background-color: #a40606;
   background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
 
@@ -155,7 +170,6 @@
 
 .visible {
   visibility: visible;
-  z-index: 10;
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
   transition: all 0.5s;
@@ -163,7 +177,6 @@
 
 .hidden {
   visibility: hidden;
-  z-index: 10;
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   transition: all 0.5s;

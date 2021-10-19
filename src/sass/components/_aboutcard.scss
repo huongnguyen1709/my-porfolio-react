@@ -19,9 +19,9 @@
     width: 90%;
   }
 
-  @media only screen and (max-width: $bp-large) {
-    width: 95%;
-  }
+  // @media only screen and (max-width: $bp-large) {
+  //   width: 95%;
+  // }
 
   @media only screen and (max-width: $bp-extra-medium) {
     width: 90%;
@@ -78,7 +78,7 @@
   z-index: 1;
 
   @media only screen and (max-width: $bp-large) {
-    transform: scale(0.95, 0.95);
+    transform: scale(0.9, 0.9);
     margin-right: 4rem;
   }
 
@@ -102,8 +102,9 @@
 
 .card:first-child {
   margin-left: 1.5rem;
+
   @media only screen and (max-width: $bp-large) {
-    margin-left: auto;
+    margin-left: 2.5rem;
   }
 
   @media only screen and (max-width: $bp-extra-medium) {
@@ -115,7 +116,7 @@
   }
 
   @media only screen and (max-width: $bp-small) {
-    margin-left: 0.1rem;
+    margin-left: 0.5rem;
   }
 }
 
@@ -123,7 +124,7 @@
   margin-right: 2rem;
 
   @media only screen and (max-width: $bp-large) {
-    margin-right: 1rem;
+    margin-right: 2.5rem;
   }
 
   @media only screen and (max-width: $bp-extra-medium) {
@@ -135,7 +136,7 @@
   }
 
   @media only screen and (max-width: $bp-small) {
-    margin-right: 0.1rem;
+    margin-right: 0.5rem;
   }
 }
 
@@ -239,7 +240,7 @@
       }
 
       @media only screen and (max-width: $bp-large) {
-        font-size: 1.7rem;
+        font-size: 2.05rem;
       }
 
       @media only screen and (max-width: $bp-small) {

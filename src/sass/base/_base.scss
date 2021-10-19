@@ -29,7 +29,7 @@ html {
     font-size: 62.5%; /* 1rem = 10px */
   }
 
-  @media only screen and (max-width: $bp-extra-medium) {
+  @media only screen and (max-width: $bp-large) {
     font-size: 56.25%; /* 1rem = 9px */
   }
 
@@ -37,7 +37,7 @@ html {
     font-size: 50%; /* 1rem = 8px */
   }
 
-  @media only screen and (max-width: $bp-medium) {
+  @media only screen and (max-width: $bp-small) {
     font-size: 43.75%; /* 1rem = 7px */
   }
 }
@@ -52,6 +52,6 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-rows: 90vh repeat(4, min-content);
+  position: relative;
+  overflow: hidden;
 }

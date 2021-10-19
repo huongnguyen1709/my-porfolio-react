@@ -17,6 +17,8 @@ const Contact = () => {
                         class="fab fa-linkedin icon"></i></a></li>
                 </ul>
             </div>
+
+            <Footer />
             
         </div>
     );

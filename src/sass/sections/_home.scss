@@ -1,3 +1,11 @@
+.header_container {
+  display: flex;
+
+  // @media only screen and (max-width: $bp-small) {
+  //   flex-direction: column;
+  // }
+}
+
 .header {
   font-size: 4rem;
 
@@ -7,9 +15,9 @@
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 
-  @media only screen and (max-width: $bp-medium) {
-    font-size: 3.5rem;
-  }
+  // @media only screen and (max-width: $bp-medium) {
+  //   font-size: 3.5rem;
+  // }
 
   @media only screen and (max-width: $bp-small) {
     margin: 0 auto auto auto;
@@ -61,9 +69,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  @media only screen and (max-width: $bp-medium) {
-    font-size: 4.5rem;
-  }
+  // @media only screen and (max-width: $bp-medium) {
+  //   font-size: 4.5rem;
+  // }
 }
 
 .huongnguyen {

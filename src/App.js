@@ -19,13 +19,7 @@ function App() {
   const pathname = location.pathname
 
   return (
-    <div className={
-      pathname === '/' ? 'background_homepage' : 
-      pathname === '/about' ? 'background_about' : 
-      pathname === '/projects' ? 'background_projects' : 
-      pathname === '/contact' ? 'background_contact' : null
-    }>
-      
+    <div className='container'>
       <NavBar />
 
       <Switch>
@@ -34,11 +28,20 @@ function App() {
         <Route path='/projects' component={Projects} />
         <Route path='/contact' component={Contact} />
       </Switch> 
-      
-      <Footer />
+
+      {/* <Footer /> */}
 
       <Particles />
     </div>
+    // <div className={
+    //   pathname === '/' ? 'background_homepage' : 
+    //   pathname === '/about' ? 'background_about' : 
+    //   pathname === '/projects' ? 'background_projects' : 
+    //   pathname === '/contact' ? 'background_contact' : null
+    // }>
+      
+      
+    // </div>
    
   );
 }

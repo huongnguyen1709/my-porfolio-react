@@ -1,15 +1,14 @@
 .background_homepage {
   background-image: url(../../imgs/background/background_home.png);
-  background-position: center;
+  background-position: top;
   background-size: cover;
 
-  overflow: hidden;
-  position: relative;
+  //overflow: hidden;
+  // position: relative;
 }
 
 .background_about {
-  overflow: hidden;
-  position: relative;
+  // overflow: hidden;
   background-color: black;
 }
 
@@ -19,11 +18,11 @@
       rgba(62, 91, 126, 0.5) 100%
     ),
     url(../../imgs/background/background_projects.jpeg);
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
 
-  overflow: hidden;
-  position: relative;
+  // overflow: hidden;
+  // position: relative;
 }
 
 .background_contact {
@@ -32,9 +31,9 @@
       rgba(63, 54, 107, 0.5) 100%
     ),
     url(../../imgs/background/background_contact.jpg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
 
-  overflow: hidden;
-  position: relative;
+  // overflow: hidden;
+  // position: relative;
 }
