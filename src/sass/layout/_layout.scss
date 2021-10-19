@@ -31,6 +31,10 @@
   @media only screen and (max-width: $bp-large) {
     grid-template-rows: 20vh 80rem 90vh;
   }
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-rows: 15vh 120rem 65vh;
+  }
 }
 
 .projects {
@@ -49,7 +53,7 @@
   }
 
   @media only screen and (max-width: $bp-small) {
-    grid-template-columns: none;
+    grid-template-rows: 20vh min-content;
   }
 }
 

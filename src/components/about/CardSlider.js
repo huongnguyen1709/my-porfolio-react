@@ -5,12 +5,20 @@ import SkillsCard from './SkillsCard';
 const CardSlider = ({skills}) => {
     const slideLeft = () => {
         var slider = document.getElementById('slider')
-        slider.scrollLeft = slider.scrollLeft - 900
+        // eslint-disable-next-line no-restricted-globals
+        if(screen.width === 428 || screen.width < 428) {
+            slider.scrollLeft = slider.scrollLeft - 328
+        }
+        else slider.scrollLeft = slider.scrollLeft - 900
     }
 
     const slideRight = () => {
         var slider = document.getElementById('slider')
-        slider.scrollLeft = slider.scrollLeft + 900
+         // eslint-disable-next-line no-restricted-globals
+         if(screen.width === 428 || screen.width < 428) {        
+            slider.scrollLeft = slider.scrollLeft + 328
+        }
+        else slider.scrollLeft = slider.scrollLeft + 900
     }
 
     return (
