@@ -103,6 +103,10 @@
     @media only screen and (max-width: $bp-large) {
       font-size: 2.2rem;
     }
+
+    @media only screen and (max-width: $bp-extra-medium-xm) {
+      font-size: 2rem;
+    }
   }
 
   &_skill--1,
