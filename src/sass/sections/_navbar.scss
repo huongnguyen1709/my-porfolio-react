@@ -8,11 +8,6 @@
   grid-template-columns: 1fr repeat(10, minmax(min-content, 15rem)) 1fr;
 }
 
-.btn-home-container {
-  grid-column: 8/9;
-  margin: auto;
-}
-
 .btn-about-container {
   grid-column: 9/10;
   margin: auto;
@@ -21,11 +16,7 @@
     grid-column: 8/9;
   }
 
-  // @media only screen and (max-width: $bp-medium-xm) {
-  //   grid-column: 8/9;
-  // }
-
-  @media only screen and (max-width: $bp-small-xs) {
+  @media only screen and (max-width: $bp-small) {
     display: none;
   }
 }
@@ -42,7 +33,7 @@
   //   grid-column: 9/10;
   // }
 
-  @media only screen and (max-width: $bp-small-xs) {
+  @media only screen and (max-width: $bp-small) {
     display: none;
   }
 }
@@ -69,7 +60,7 @@
   //   grid-column: 10/11;
   // }
 
-  @media only screen and (max-width: $bp-small-xs) {
+  @media only screen and (max-width: $bp-small) {
     display: none;
   }
 }
@@ -136,7 +127,7 @@
   margin: auto;
   display: none;
 
-  @media only screen and (max-width: $bp-small-xs) {
+  @media only screen and (max-width: $bp-small) {
     display: block;
     z-index: 101;
   }

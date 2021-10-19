@@ -20,6 +20,10 @@
     margin-top: 3rem;
   }
 
+  @media only screen and (max-width: $bp-small) {
+    margin: 3rem auto auto auto;
+  }
+
   // @media only screen and (max-width: $bp-extra-small) {
   //   font-size: 3rem;
   // }

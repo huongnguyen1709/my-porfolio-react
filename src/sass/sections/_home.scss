@@ -11,6 +11,11 @@
     font-size: 3.5rem;
   }
 
+  @media only screen and (max-width: $bp-small) {
+    margin: 0 auto auto auto;
+    text-align: center;
+  }
+
   @keyframes text {
     0% {
       text-shadow: none;
@@ -95,6 +100,11 @@
   @media only screen and (max-width: $bp-medium) {
     max-width: 30rem;
     max-height: 30rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    order: -1;
+    margin: 10vh auto;
   }
 
   @keyframes picture-frames {
