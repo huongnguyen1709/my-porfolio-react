@@ -6,10 +6,6 @@
 
   display: grid;
   grid-template-columns: 1fr repeat(10, minmax(min-content, 15rem)) 1fr;
-
-  @media only screen and (max-width: $bp-small) {
-    box-shadow: 0 1rem 1rem whitesmoke;
-  }
 }
 
 .btn-about-container {
