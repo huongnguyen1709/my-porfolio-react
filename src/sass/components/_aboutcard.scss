@@ -19,6 +19,10 @@
     width: 90%;
   }
 
+  @media only screen and (max-width: $bp-extra-medium-xm) {
+    width: 95%;
+  }
+
   // @media only screen and (max-width: $bp-large) {
   //   width: 95%;
   // }
@@ -86,9 +90,9 @@
     margin-right: 4rem;
   }
 
-  @media only screen and (max-width: $bp-extra-medium-xm) {
-    margin-right: 1.5rem;
-  }
+  // @media only screen and (max-width: $bp-extra-medium-xm) {
+  //   margin-right: 1.5rem;
+  // }
 
   @media only screen and (max-width: $bp-medium) {
     margin-right: 5rem;
