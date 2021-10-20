@@ -24,6 +24,20 @@
   padding: 4rem;
   color: rgb(224, 214, 214);
 
+  animation: introduce 1.5s infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+
+  @keyframes introduce {
+    0% {
+      box-shadow: none;
+    }
+
+    100% {
+      box-shadow: 0 0.5rem 1rem coral;
+    }
+  }
+
   @media only screen and (max-width: $bp-medium) {
     width: 85%;
     padding: 3rem;
@@ -36,6 +50,6 @@
   }
 }
 
-.introduce:hover {
-  box-shadow: 0 0.5rem 1rem coral;
-}
+// .introduce:hover {
+//   box-shadow: 0 0.5rem 1rem coral;
+// }
