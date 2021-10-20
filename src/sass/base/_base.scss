@@ -6,7 +6,7 @@ $bp-large: 85.375em; // 1366 px done
 $bp-extra-medium-xm: 74.625em; // 1194 px done
 $bp-extra-medium: 64em; // 1024 px done
 $bp-medium: 52.125em; // 834 px done
-$bp-small: 26.75em; // 428 px
+$bp-small: 26.75em; // 428 px done
 $bp-small-xs: 23.4375em; // 375 px
 $bp-small-xxs: 22.5em; // 360 px
 
@@ -40,6 +40,10 @@ html {
 
   @media only screen and (max-width: $bp-small) {
     font-size: 43.75%; /* 1rem = 7px */
+  }
+
+  @media only screen and (max-width: $bp-small-xs) {
+    font-size: 37.5%; /* 1rem = 6px */
   }
 }
 
