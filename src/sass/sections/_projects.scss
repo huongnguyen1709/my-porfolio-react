@@ -38,6 +38,8 @@
 
   @media only screen and (max-width: $bp-extra-medium) {
     width: 80%;
+    grid-gap: 8rem;
+    margin-bottom: 3rem;
   }
 
   // @media only screen and (max-width: $bp-extra-small) {
@@ -55,7 +57,7 @@
   font-size: 1.8rem;
   border: 0.1rem solid rgb(171, 190, 99);
   border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgb(36, 35, 35);
+  box-shadow: 0 0.5rem 1rem rgb(155, 150, 150);
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);

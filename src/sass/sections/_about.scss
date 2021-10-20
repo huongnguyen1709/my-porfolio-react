@@ -9,6 +9,10 @@
     margin: 4rem auto 0 auto;
   }
 
+  @media only screen and (max-width: $bp-medium) {
+    margin: auto;
+  }
+
   // @media only screen and (max-width: $bp-extra-small) {
   //   grid-column: auto;
   //   font-size: 6rem;
@@ -19,27 +23,14 @@
 .introduce {
   width: 100rem;
   font-size: 2.2rem;
-  border: 2px solid coral;
+  border: 0.2rem solid rgb(223, 119, 81);
   margin: 3rem auto 8rem auto;
   padding: 4rem;
   color: rgb(224, 214, 214);
-
-  animation: introduce 1.5s infinite;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-
-  @keyframes introduce {
-    0% {
-      box-shadow: none;
-    }
-
-    100% {
-      box-shadow: 0 0.5rem 1rem coral;
-    }
-  }
+  box-shadow: coral 0px 5px 15px;
 
   @media only screen and (max-width: $bp-medium) {
-    width: 85%;
+    width: 80%;
     padding: 3rem;
   }
 
@@ -49,7 +40,3 @@
     font-size: 2.4rem;
   }
 }
-
-// .introduce:hover {
-//   box-shadow: 0 0.5rem 1rem coral;
-// }

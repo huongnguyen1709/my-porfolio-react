@@ -47,6 +47,10 @@
     grid-template-rows: 18vh 75rem 80vh;
   }
 
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-rows: 20rem 82rem 75rem;
+  }
+
   @media only screen and (max-width: $bp-small) {
     grid-template-rows: 13vh 98rem 68vh;
   }
@@ -73,8 +77,8 @@
   // }
 
   @media only screen and (max-width: $bp-extra-medium) {
-    grid-template-rows: 25vh min-content;
-    margin-bottom: 3rem;
+    height: auto;
+    grid-template-rows: 25vh min-content 10rem;
   }
 
   @media only screen and (max-width: $bp-small) {
