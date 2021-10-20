@@ -81,6 +81,10 @@
     grid-template-rows: 25vh min-content 10rem;
   }
 
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-rows: 20rem min-content 10rem;
+  }
+
   @media only screen and (max-width: $bp-small) {
     grid-template-rows: 20vh min-content;
   }

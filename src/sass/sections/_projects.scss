@@ -42,9 +42,9 @@
     margin-bottom: 3rem;
   }
 
-  // @media only screen and (max-width: $bp-extra-small) {
-  //   margin: 0 7rem 4rem 7rem;
-  // }
+  @media only screen and (max-width: $bp-small) {
+    width: 70%;
+  }
 }
 
 .project {
