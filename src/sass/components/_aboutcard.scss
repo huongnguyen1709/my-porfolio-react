@@ -86,9 +86,9 @@
     margin-right: 4rem;
   }
 
-  // @media only screen and (max-width: $bp-extra-medium-xm) {
-  //   transform: scale(0.9, 0.9);
-  // }
+  @media only screen and (max-width: $bp-extra-medium-xm) {
+    margin-right: 2rem;
+  }
 
   @media only screen and (max-width: $bp-medium) {
     margin-right: 5rem;
@@ -256,6 +256,10 @@
 
       @media only screen and (max-width: $bp-large) {
         font-size: 2.05rem;
+      }
+
+      @media only screen and (max-width: $bp-extra-medium-xm) {
+        font-size: 2.1rem;
       }
 
       @media only screen and (max-width: $bp-small) {
