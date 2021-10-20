@@ -72,9 +72,9 @@
     transform: none;
   }
 
-  @media only screen and (max-width: $bp-small) {
-    font-size: 2.5rem;
-  }
+  // @media only screen and (max-width: $bp-small) {
+  //   font-size: 2.5rem;
+  // }
 
   // @media only screen and (max-width: $bp-extra-small) {
   //   font-size: 2.5rem;
@@ -108,6 +108,10 @@
 
     @media only screen and (max-width: $bp-extra-medium-xm) {
       font-size: 2rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 2.2rem;
     }
   }
 
