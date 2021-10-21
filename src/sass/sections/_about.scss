@@ -29,6 +29,10 @@
   color: rgb(224, 214, 214);
   box-shadow: coral 0px 5px 15px;
 
+  animation: picture-frames 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+
   @media only screen and (max-width: $bp-medium) {
     width: 80%;
     padding: 3rem;

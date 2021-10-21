@@ -7,6 +7,10 @@
   align-items: center;
   overflow: hidden;
 
+  animation: header-frames 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+
   @media only screen and (max-width: $bp-largest-3xl) {
     width: 90%;
   }
@@ -112,7 +116,9 @@
   }
 
   @media only screen and (max-width: $bp-small-xs) {
+    width: 33rem;
     transform: scale(0.8, 0.8);
+    margin-right: 0;
   }
 }
 
