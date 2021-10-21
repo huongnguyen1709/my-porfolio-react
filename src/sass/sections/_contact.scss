@@ -15,9 +15,14 @@
   animation-fill-mode: forwards;
 }
 
-.contact_info--title {
+.contact_title {
   font-family: 'Dancing Script', cursive;
   font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.contact_info {
+  font-size: 2.2rem;
   margin-bottom: 3rem;
 }
 
@@ -31,15 +36,4 @@
   color: rgb(233, 218, 218);
   margin-right: 5rem;
   margin-left: 3rem;
-}
-
-.footer {
-  height: 10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color: whitesmoke;
-  font-size: 2rem;
-  text-align: center;
 }

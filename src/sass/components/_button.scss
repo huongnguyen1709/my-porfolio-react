@@ -83,3 +83,27 @@
 .btn:active {
   transform: translateY(5px);
 }
+
+/* BUTTON SEND IN CONTACT PAGE */
+
+.btn-send {
+  width: 12rem;
+  height: 4.5rem;
+  font-size: 2rem;
+  border-radius: 3rem;
+  border: 0.2rem solid rgb(127, 192, 184);
+  background: linear-gradient(to right, rgb(127, 192, 184), rgb(27, 180, 162));
+  border: none;
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.57);
+  color: #ffffff;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: all 0.3s;
+  float: right;
+}
+
+.btn-send:active {
+  transform: translateY(3px);
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.57);
+}

@@ -11,6 +11,7 @@ Portfolio represent my work, my study and my life
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
 - [Node-Sass](https://www.npmjs.com/package/node-sass)
+- [Sass](https://sass-lang.com/)
 
 <!-- GETTING STARTED -->
 
