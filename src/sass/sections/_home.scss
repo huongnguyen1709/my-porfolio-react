@@ -26,6 +26,10 @@
     text-align: center;
   }
 
+  @media only screen and (max-width: $bp-small-xs) {
+    font-size: 3.5rem;
+  }
+
   @keyframes text {
     0% {
       text-shadow: none;
@@ -117,6 +121,11 @@
     max-height: 28rem;
     order: -1;
     margin: 8vh auto 7vh auto;
+  }
+
+  @media only screen and (max-width: $bp-small-xs) {
+    max-width: 23rem;
+    max-height: 23rem;
   }
 
   @keyframes picture-frames {

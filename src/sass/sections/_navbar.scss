@@ -146,6 +146,11 @@
     left: 38rem !important;
     z-index: 105;
   }
+
+  @media only screen and (max-width: $bp-small-xs) {
+    top: 1rem !important;
+    left: 35rem !important;
+  }
 }
 
 .toggle_menu {

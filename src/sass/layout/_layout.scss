@@ -15,6 +15,10 @@
 
   overflow: hidden;
 
+  @media only screen and (max-width: $bp-small-xs) {
+    height: 90rem;
+  }
+
   // @media only screen and (max-width: $bp-small) {
   //   flex-direction: column;
   // }
@@ -53,6 +57,10 @@
 
   @media only screen and (max-width: $bp-small) {
     grid-template-rows: 13vh 98rem 70rem;
+  }
+
+  @media only screen and (max-width: $bp-small-xs) {
+    grid-template-rows: 13vh 93rem 70rem;
   }
 }
 
