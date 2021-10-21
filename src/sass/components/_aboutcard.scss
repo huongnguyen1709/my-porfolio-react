@@ -7,7 +7,7 @@
   align-items: center;
   overflow: hidden;
 
-  animation: header-frames 1.5s;
+  animation: fadein-left 1.5s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 
@@ -30,18 +30,6 @@
   @media only screen and (max-width: $bp-extra-medium) {
     width: 90%;
   }
-
-  // @media only screen and (max-width: $bp-extra-medium) {
-  //   width: 100%;
-  // }
-
-  // @media only screen and (max-width: $bp-large) {
-  //   width: 95%;
-  // }
-
-  // @media only screen and (max-width: $bp-extra-medium) {
-  //   width: 90%;
-  // }
 }
 
 #slider {
@@ -53,10 +41,6 @@
   scroll-behavior: smooth;
   overflow: hidden;
   margin: auto;
-
-  // @media only screen and (max-width: $bp-small) {
-  //   width: 75%;
-  // }
 }
 
 .slider-icon.left,
@@ -140,10 +124,6 @@
   @media only screen and (max-width: $bp-extra-medium) {
     margin-left: 0;
   }
-
-  // @media only screen and (max-width: $bp-extra-medium) {
-  //   margin-left: 6rem;
-  // }
 
   @media only screen and (max-width: $bp-medium) {
     margin-left: 2rem;
@@ -296,10 +276,6 @@
       @media only screen and (max-width: $bp-small) {
         font-size: 2.5rem;
       }
-
-      // @media only screen and (max-width: $bp-extra-small) {
-      //   font-size: 2.5rem;
-      // }
     }
   }
 }

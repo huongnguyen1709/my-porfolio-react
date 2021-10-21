@@ -2,10 +2,6 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 import profile from '../../imgs/profile_picture/huong.jpg';
-import javascript from '../../imgs/logos/javascript.png';
-import react from '../../imgs/logos/react.png';
-import nodejs from '../../imgs/logos/nodejs.png';
-import mongoDB from '../../imgs/logos/mongoDB.png';
 import Footer from '../contact/Footer';
 
 const Header = () => {
@@ -13,24 +9,14 @@ const Header = () => {
     <div className="home">
        <div className='header_container'>
             <div className="header">
-                <div className="huongnguyen">Huong Nguyen</div>  
-                    <div className="title"><span className="full-stack">Full-stack</span> Developer</div>
+                <div className="name">Huong Nguyen</div>  
+                <div className="title"><span>Full-stack</span> Developer</div>
                 <Link to="/projects" className="btn-click">View my work</Link>
             </div>
-            <img src={profile} alt="huong" className="huong-picture" />
+            <img src={profile} alt="huongpicture" className="profile-picture" />
        </div>
 
        <Footer />
-
-       {/* <div className="line"></div>
-
-       <div className="logo_container">
-            <img src={javascript} alt="javascript-logo" className="logo" />
-            <img src={react} alt="react-logo" className="logo" />
-            <img src={nodejs} alt="typescript-logo" className="logo" />
-            <img src={mongoDB} alt="mongoDB-logo" className="logo" />
-       </div> */}
-
        
     </div>
     );

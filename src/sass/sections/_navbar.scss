@@ -40,10 +40,6 @@
     grid-column: 9/10;
   }
 
-  // @media only screen and (max-width: $bp-medium-xm) {
-  //   grid-column: 9/10;
-  // }
-
   @media only screen and (max-width: $bp-small) {
     display: none;
   }
@@ -67,10 +63,6 @@
     height: 4rem;
   }
 
-  // @media only screen and (max-width: $bp-medium-xm) {
-  //   grid-column: 10/11;
-  // }
-
   @media only screen and (max-width: $bp-small) {
     display: none;
   }
@@ -87,10 +79,6 @@
     font-size: 4rem;
     margin-bottom: 2rem;
   }
-
-  // @media only screen and (max-width: $bp-extra-small) {
-  //   font-size: 5rem;
-  // }
 }
 
 .nav-link:hover {
@@ -121,10 +109,6 @@
   @media only screen and (max-width: $bp-medium) {
     grid-column: 3/5;
   }
-
-  // @media only screen and (max-width: $bp-small-xs) {
-  //   grid-column: 4/5;
-  // }
 }
 
 .hn-logo {
@@ -134,7 +118,6 @@
 
 /* TOGGLE MENU */
 .hamburger-react {
-  //grid-column: 9/12;
   color: whitesmoke;
   margin: auto;
   display: none;

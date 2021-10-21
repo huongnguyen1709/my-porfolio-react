@@ -1,14 +1,12 @@
+/* BACKGROUND FOR NAVIGATION ON EACH PAGE */
+
 .background_homepage {
   background-image: url(../../imgs/background/background_home.png);
   background-position: top;
   background-size: cover;
-
-  //overflow: hidden;
-  // position: relative;
 }
 
 .background_about {
-  // overflow: hidden;
   background-color: black;
 }
 
@@ -20,9 +18,6 @@
     url(../../imgs/background/background_projects.jpeg);
   background-position: top;
   background-size: cover;
-
-  // overflow: hidden;
-  // position: relative;
 }
 
 .background_contact {
@@ -33,7 +28,4 @@
     url(../../imgs/background/background_contact.jpg);
   background-position: top;
   background-size: cover;
-
-  // overflow: hidden;
-  // position: relative;
 }
