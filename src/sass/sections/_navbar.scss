@@ -122,9 +122,9 @@
     grid-column: 3/5;
   }
 
-  @media only screen and (max-width: $bp-small-xs) {
-    grid-column: 4/5;
-  }
+  // @media only screen and (max-width: $bp-small-xs) {
+  //   grid-column: 4/5;
+  // }
 }
 
 .hn-logo {
@@ -148,8 +148,8 @@
   }
 
   @media only screen and (max-width: $bp-small-xs) {
-    top: 1rem !important;
-    left: 35rem !important;
+    top: 0.9rem !important;
+    left: 33rem !important;
   }
 }
 

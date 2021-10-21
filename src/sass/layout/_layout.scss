@@ -16,7 +16,7 @@
   overflow: hidden;
 
   @media only screen and (max-width: $bp-small-xs) {
-    height: 90rem;
+    height: 70rem;
   }
 
   // @media only screen and (max-width: $bp-small) {
@@ -60,7 +60,7 @@
   }
 
   @media only screen and (max-width: $bp-small-xs) {
-    grid-template-rows: 13vh 93rem 70rem;
+    grid-template-rows: 13vh 88rem 70rem;
   }
 }
 
