@@ -1,7 +1,6 @@
 import {
   Switch,
   Route,
-  useLocation
 } from "react-router-dom";
 
 import './sass/main.scss';
@@ -12,11 +11,8 @@ import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import NavBar from "./components/NavBar";
 import Particles from './components/Particles';
-import Footer from "./components/contact/Footer";
 
 function App() {
-  const location = useLocation();
-  const pathname = location.pathname
 
   return (
     <div className='container'>
@@ -29,20 +25,9 @@ function App() {
         <Route path='/contact' component={Contact} />
       </Switch> 
 
-      {/* <Footer /> */}
-
       <Particles />
     </div>
-    // <div className={
-    //   pathname === '/' ? 'background_homepage' : 
-    //   pathname === '/about' ? 'background_about' : 
-    //   pathname === '/projects' ? 'background_projects' : 
-    //   pathname === '/contact' ? 'background_contact' : null
-    // }>
-      
-      
-    // </div>
-   
+ 
   );
 }
 
