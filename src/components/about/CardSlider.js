@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import React from 'react';
 import {MdChevronLeft, MdChevronRight} from 'react-icons/md'
 import SkillsCard from './SkillsCard';
@@ -5,18 +6,22 @@ import SkillsCard from './SkillsCard';
 const CardSlider = ({skills}) => {
     const slideLeft = () => {
         var slider = document.getElementById('slider')
-        // eslint-disable-next-line no-restricted-globals
         if(screen.width === 428 || screen.width < 428) {
             slider.scrollLeft = slider.scrollLeft - 328
+        }
+        if(screen.width === 375 || screen.width < 375) {
+            slider.scrollLeft = slider.scrollLeft - 250
         }
         else slider.scrollLeft = slider.scrollLeft - 900
     }
 
     const slideRight = () => {
         var slider = document.getElementById('slider')
-         // eslint-disable-next-line no-restricted-globals
-         if(screen.width === 428 || screen.width < 428) {        
+        if(screen.width === 428 || screen.width < 428) {        
             slider.scrollLeft = slider.scrollLeft + 328
+        }
+        else if(screen.width === 375 || screen.width < 375) {        
+            slider.scrollLeft = slider.scrollLeft + 250
         }
         else slider.scrollLeft = slider.scrollLeft + 900
     }

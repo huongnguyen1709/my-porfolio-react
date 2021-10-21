@@ -20,6 +20,10 @@
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 8rem;
 
+  animation: picture-frames 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+
   @media only screen and (max-width: $bp-largest-3xl) {
     width: 90%;
   }
