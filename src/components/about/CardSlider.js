@@ -10,7 +10,7 @@ const CardSlider = ({skills}) => {
             slider.scrollLeft = slider.scrollLeft - 328
         }
         if(screen.width === 375 || screen.width < 375) {
-            slider.scrollLeft = slider.scrollLeft - 250
+            slider.scrollLeft = slider.scrollLeft - 200
         }
         else slider.scrollLeft = slider.scrollLeft - 900
     }
@@ -21,7 +21,7 @@ const CardSlider = ({skills}) => {
             slider.scrollLeft = slider.scrollLeft + 328
         }
         else if(screen.width === 375 || screen.width < 375) {        
-            slider.scrollLeft = slider.scrollLeft + 250
+            slider.scrollLeft = slider.scrollLeft + 200
         }
         else slider.scrollLeft = slider.scrollLeft + 900
     }
