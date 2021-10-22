@@ -4,7 +4,7 @@
 
 ## About
 
-Portfolio represent my work, my study and my life
+Portfolio represent my work, my study
 
 ### Built With
 
