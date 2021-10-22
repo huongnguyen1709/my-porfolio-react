@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import CardSlider from './CardSlider';
 
-import Footer from "../contact/Footer";
+import Footer from "../Footer";
 
 
 const About = () => {

@@ -15,7 +15,7 @@ const NavBar = () => {
             pathname === '/projects' ? 'background_projects navigation' : 
             pathname === '/contact' ? 'background_contact navigation' : null
           }>
-                <div className="hn"><Link to="/" className="nav-link hn-logo"><i class="fab fa-angellist"></i> HN</Link></div>
+                <div className="hn"><Link to="/" className="nav-link hn-logo"><i className="fab fa-angellist"></i> HN</Link></div>
                 
                 <div className="btn-about-container"><Link to="/about" className={pathname === '/about' ? 'nav-link underline' : 'nav-link'}>About</Link></div>
                 <div className="btn-projects-container"><Link to="/projects" className={pathname === '/projects' ? 'nav-link underline' : 'nav-link'}>Projects</Link></div>

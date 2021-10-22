@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import emailjs from 'emailjs-com'
 
-import Footer from './Footer';
+import Footer from '../Footer';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -31,8 +31,7 @@ const Contact = () => {
         <div className="contact">
             <div className="contact_container">
                 <h2 class="contact_title">Get in Touch</h2>
-                <p className='contact_info'>Have a question or want to work together? Fill in this form, I will respond as soon as possible!</p>
-                {/* <h3><i class="far fa-envelope"></i> huongnguyen.nth1709@gmail.com</h3> */}
+                <p className='contact_info'>Have a question or want to work together ? Contact me via Linkedin or fill in this form, I will respond as soon as possible!</p>
 
                 <form action="form" className="form" onSubmit={sendEmail}>
                     <label className="label-form" for="name">Name: </label>
@@ -72,14 +71,6 @@ const Contact = () => {
                     <button className="btn-send">Send</button>
                 </form>
 
-                {/* <ul class="socialmedia">
-                    <li><a href="https://www.facebook.com/nguyenthuhuong.1709" target="_blank" rel="noreferrer"><i
-                        class="fab fa-facebook-square icon"></i></a></li> 
-                     <li><a href="https://github.com/huongnguyen1709" target="_blank" rel="noreferrer"><i
-                        class="fab fa-github-square github icon"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/huongnguyen1709/" target="_blank" rel="noreferrer"><i
-                        class="fab fa-linkedin icon"></i></a></li>
-                </ul> */}
             </div>
 
             <Footer />

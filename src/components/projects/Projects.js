@@ -4,7 +4,7 @@ import quizApp from '../../imgs/projects/quiz-app.png'
 import dragdropColor from '../../imgs/projects/drag-drop-color.png'
 import marioBlog from '../../imgs/projects/mario-blog.png'
 import ProjectCard from './ProjectCard';
-import Footer from '../contact/Footer';
+import Footer from '../Footer';
 
 
 const Projects = () => {
