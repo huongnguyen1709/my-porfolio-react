@@ -13,17 +13,34 @@
   animation: opacity 1.5s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
+
+  // @media only screen and (max-width: $bp-extra-medium-xm) {
+  //   height: calc(100% - 16rem);
+  //   margin: 3rem auto;
+  // }
 }
 
 .contact_title {
   font-family: 'Dancing Script', cursive;
   font-size: 5rem;
   margin-bottom: 3rem;
+
+  // @media only screen and (max-width: $bp-largest-xl) {
+  //   margin: auto;
+  // }
 }
 
 .contact_info {
   font-size: 2.2rem;
   margin-bottom: 3rem;
+
+  @media only screen and (max-width: $bp-small) {
+    width: 70%;
+  }
+
+  // @media only screen and (max-width: $bp-largest-xl) {
+  //   margin: auto;
+  // }
 }
 
 .socialmedia {

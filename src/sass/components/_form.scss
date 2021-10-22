@@ -1,5 +1,13 @@
 .form {
   width: 40%;
+
+  @media only screen and (max-width: $bp-extra-medium) {
+    width: 50%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    width: 70%;
+  }
 }
 
 .label-form {

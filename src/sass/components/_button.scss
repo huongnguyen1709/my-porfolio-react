@@ -101,6 +101,11 @@
   margin-top: 2rem;
   transition: all 0.3s;
   float: right;
+
+  // @media only screen and (max-width: $bp-largest-xl) {
+  //   margin-top: auto;
+  //   margin-bottom: 2rem;
+  // }
 }
 
 .btn-send:active {
