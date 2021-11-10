@@ -30,11 +30,11 @@ const Contact = () => {
     return (
         <div className="contact">
             <div className="contact_container">
-                <h2 class="contact_title">Get in Touch</h2>
+                <h2 className="contact_title">Get in Touch</h2>
                 <p className='contact_info'>Have a question or want to work together ? Contact me via Linkedin or fill in this form, I will respond as soon as possible!</p>
 
                 <form action="form" className="form" onSubmit={sendEmail}>
-                    <label className="label-form" for="name">Name: </label>
+                    <label className="label-form" htmlFor="name">Name: </label>
                     <br></br>
                     <input 
                         className="form-input" 
@@ -46,7 +46,7 @@ const Contact = () => {
                         required 
                     />
                     <br></br>
-                    <label className="label-form" for="email">Email: </label>
+                    <label className="label-form" htmlFor="email">Email: </label>
                     <br></br>
                     <input 
                         className="form-input" 
@@ -57,7 +57,7 @@ const Contact = () => {
                         value={formData.email}
                         required />
                     <br></br>
-                    <label className="label-form" for="email">Message: </label>
+                    <label className="label-form" htmlFor="email">Message: </label>
                     <br></br>
                     <textarea 
                         className="form-input message-box" 

@@ -10,7 +10,8 @@ const SkillsCard = ({skill, index}) => {
             <div className="card_details">
                 <ul>
                     {
-                        skill.languages && skill.languages.map((lang, index) => <li key={index}>{lang}</li> )
+                        skill.languages && skill.languages.map((lang, index) => 
+                        <li key={index}>{lang}</li> )
                     }
                 </ul>
             </div> 

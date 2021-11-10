@@ -31,7 +31,9 @@ const CardSlider = ({skills}) => {
             <MdChevronLeft size={35} className='slider-icon left' onClick={slideLeft} />
             <div id='slider'>
                 {
-                    skills && skills.map((skill, index) =>  <SkillsCard key={index+1} skill={skill} index={index+1} />)
+                    skills && skills.map((skill, index) =>  
+                        <SkillsCard key={index+1} skill={skill} index={index+1} />
+                    )
                 }
             </div>
             <MdChevronRight size={35} className='slider-icon right' onClick={slideRight} />
