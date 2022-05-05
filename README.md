@@ -18,28 +18,6 @@ The Portfolio represents my work, my study
 - [Jest](https://jestjs.io/)
 - [Cypress](https://www.cypress.io/)
 
-<!-- GETTING STARTED -->
-
-### Installation
-
-1. Clone the repo
-
-```sh
-git clone https://github.com/huongnguyen1709/my-porfolio-react
-```
-
-1. Install NPM packages
-
-```sh
-npm install
-```
-
-3. Implement application on local server
-
-```sh
-npm start
-```
-
 Link: [My Portfolio](https://huongnguyen1709.netlify.app/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
