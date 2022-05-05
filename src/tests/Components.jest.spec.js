@@ -19,7 +19,7 @@ describe('Home page', () => {
     expect(tree).toMatchSnapshot();
   })
 
-  it('should render items', () => {
+  it('Home page should render items', () => {
     const {container} = render(
       <BrowserRouter>
         <Home />
@@ -30,7 +30,7 @@ describe('Home page', () => {
   })
 })
 
-describe('About page', () => {
+describe('Contact page', () => {
   it('should render items', () => {
     render(<Contact />);
     expect(screen.getByText('Get in Touch')).toBeInTheDocument();

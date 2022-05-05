@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matchs Snapshot 1`] = `
+<div
+  className="home"
+>
+  <div
+    className="header_container"
+  >
+    <div
+      className="header"
+    >
+      <div
+        className="name"
+      >
+        Huong Nguyen
+      </div>
+      <div
+        className="title"
+      >
+        <span>
+          Full-stack
+        </span>
+         Developer
+      </div>
+      <a
+        className="btn-click"
+        href="/about"
+        onClick={[Function]}
+      >
+        Explore me
+      </a>
+    </div>
+    <img
+      alt="huongpicture"
+      className="profile-picture"
+      src={
+        Object {
+          "process": [Function],
+        }
+      }
+    />
+  </div>
+  <div
+    className="footer"
+  >
+    <a
+      href="https://www.linkedin.com/in/huongnguyen1709/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-linkedin icon"
+      />
+    </a>
+    <h5
+      className="copyright"
+    >
+      <i
+        className="far fa-copyright"
+      />
+      2021 Huong Nguyen
+    </h5>
+    <a
+      href="https://github.com/huongnguyen1709"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-github-square github icon"
+      />
+    </a>
+  </div>
+</div>
+`;
