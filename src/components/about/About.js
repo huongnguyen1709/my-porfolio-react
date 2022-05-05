@@ -41,9 +41,9 @@ const About = () => {
             <br></br>  
             <u>Achievements</u> : <br></br>  
             &nbsp; • &nbsp; Full Stack Open 2021, University of Helsinki & Houston Inc. <br></br>  
-            &nbsp; &nbsp; • &nbsp; GraphQL, Full Stack Open 2021, University of Helsinki & Houston Inc.  <br></br> 
-            &nbsp; &nbsp; • &nbsp; TypeScript, Full Stack Open 2021, University of Helsinki & Houston Inc.  <br></br> 
-            &nbsp; &nbsp; • &nbsp; CI/CD, Full Stack Open 2021, University of Helsinki & Houston Inc.  <br></br> 
+            &nbsp; • &nbsp; GraphQL, Full Stack Open 2021, University of Helsinki & Houston Inc.  <br></br> 
+            &nbsp; • &nbsp; TypeScript, Full Stack Open 2021, University of Helsinki & Houston Inc.  <br></br> 
+            &nbsp; • &nbsp; CI/CD, Full Stack Open 2021, University of Helsinki & Houston Inc.  <br></br> 
             </p>
     
             <CardSlider skills = {skills} />
