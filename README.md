@@ -4,7 +4,7 @@
 
 ## About
 
-Portfolio represent my work, my study
+The Portfolio represents my work, my study
 
 ### Built With
 
@@ -12,6 +12,11 @@ Portfolio represent my work, my study
 - [React Router](https://reactrouter.com/)
 - [Node-Sass](https://www.npmjs.com/package/node-sass)
 - [Sass](https://sass-lang.com/)
+
+### Tested With
+
+- [Jest](https://jestjs.io/)
+- [Cypress](https://www.cypress.io/)
 
 <!-- GETTING STARTED -->
 
