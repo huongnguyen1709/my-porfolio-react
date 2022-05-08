@@ -31,7 +31,7 @@ const About = () => {
         <div className='about'>
             <h2 className="heading-about">About Me</h2>
             <p className="introduce">Hi, I'm Huong. 
-            I have a passion in coding, building websites & applications. I am self-motivation and optimistic that promote myself to meet my goals. I am curious and constantly learning to keep myself updated. My hobbies are reading, traveling, and communicating with people. <br></br>
+            I have passion for coding, building websites & applications. I am self-motivation and optimistic that promote myself to meet my goals. I am curious and constantly learning to keep myself updated. My hobbies are reading, traveling, and communicating with people. <br></br>
             <br></br>  
             Feel free to check out my skills & projects ! <br></br> 
             <br></br>  
